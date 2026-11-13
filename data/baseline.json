@@ -1,0 +1,7758 @@
+{
+ "webFeaturesVersion": "3.46.0",
+ "features": {
+  "a": {
+   "kind": "feature",
+   "name": "<a>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "abbr": {
+   "kind": "feature",
+   "name": "<abbr>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "abortable-fetch": {
+   "kind": "feature",
+   "name": "Abortable fetch",
+   "baseline": "high",
+   "low": "2019-03-25",
+   "high": "2021-09-25"
+  },
+  "aborting": {
+   "kind": "feature",
+   "name": "AbortController and AbortSignal",
+   "baseline": "high",
+   "low": "2019-03-25",
+   "high": "2021-09-25"
+  },
+  "abortsignal-any": {
+   "kind": "feature",
+   "name": "AbortSignal.any()",
+   "baseline": "high",
+   "low": "2024-03-19",
+   "high": "2026-09-19"
+  },
+  "abortsignal-timeout": {
+   "kind": "feature",
+   "name": "AbortSignal.timeout()",
+   "baseline": "high",
+   "low": "2024-04-18",
+   "high": "2026-10-18"
+  },
+  "abs-sign": {
+   "kind": "feature",
+   "name": "abs() and sign()",
+   "baseline": "low",
+   "low": "2025-06-26"
+  },
+  "absolute-positioning": {
+   "kind": "feature",
+   "name": "Absolute positioning",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "accelerometer": {
+   "kind": "feature",
+   "name": "Accelerometer",
+   "baseline": false
+  },
+  "accent-color": {
+   "kind": "feature",
+   "name": "accent-color",
+   "baseline": false
+  },
+  "accesskey": {
+   "kind": "feature",
+   "name": "accesskey",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "accessor-methods": {
+   "kind": "feature",
+   "name": "Accessor methods",
+   "baseline": false
+  },
+  "active-view-transition": {
+   "kind": "feature",
+   "name": "Active view transition",
+   "baseline": "low",
+   "low": "2026-01-13"
+  },
+  "ad-selection": {
+   "kind": "feature",
+   "name": "Ad selection",
+   "baseline": false
+  },
+  "address": {
+   "kind": "feature",
+   "name": "<address>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "alerts": {
+   "kind": "feature",
+   "name": "Alerts",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "align-content-block": {
+   "kind": "feature",
+   "name": "align-content in block layouts",
+   "baseline": "high",
+   "low": "2024-04-16",
+   "high": "2026-10-16"
+  },
+  "alignment-baseline": {
+   "kind": "feature",
+   "name": "alignment-baseline",
+   "baseline": false
+  },
+  "all": {
+   "kind": "feature",
+   "name": "all",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "alpha": {
+   "kind": "feature",
+   "name": "alpha()",
+   "baseline": "low",
+   "low": "2026-09-14"
+  },
+  "alt-text-generated-content": {
+   "kind": "feature",
+   "name": "Alt text for generated content",
+   "baseline": "low",
+   "low": "2024-07-09"
+  },
+  "alternative-style-sheets": {
+   "kind": "feature",
+   "name": "Alternative style sheets",
+   "baseline": false
+  },
+  "ambient-light": {
+   "kind": "feature",
+   "name": "Ambient light sensor",
+   "baseline": false
+  },
+  "anchor-positioning": {
+   "kind": "feature",
+   "name": "Anchor positioning",
+   "baseline": false
+  },
+  "anchor-positioning-animations": {
+   "kind": "feature",
+   "name": "Anchor positioning animations and transitions",
+   "baseline": false
+  },
+  "anchor-positioning-position-visibility-plurals": {
+   "kind": "feature",
+   "name": "anchors-valid and anchors-visible",
+   "baseline": false
+  },
+  "anchor-positioning-transforms": {
+   "kind": "feature",
+   "name": "Anchor positioning transforms",
+   "baseline": false
+  },
+  "angle-instanced-arrays": {
+   "kind": "feature",
+   "name": "ANGLE_instanced_arrays WebGL extension",
+   "baseline": "high",
+   "low": "2016-06-07",
+   "high": "2018-12-07"
+  },
+  "animation-composition": {
+   "kind": "feature",
+   "name": "animation-composition",
+   "baseline": "high",
+   "low": "2023-07-04",
+   "high": "2026-01-04"
+  },
+  "animations-css": {
+   "kind": "feature",
+   "name": "Animations (CSS)",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "animations-css-animation-accessors": {
+   "kind": "feature",
+   "name": "Animation accessors",
+   "baseline": "low",
+   "low": "2026-09-14"
+  },
+  "app-file-handlers": {
+   "kind": "feature",
+   "name": "File handlers",
+   "baseline": false
+  },
+  "app-launch-handler": {
+   "kind": "feature",
+   "name": "Launch handler",
+   "baseline": false
+  },
+  "app-migration": {
+   "kind": "feature",
+   "name": "Web app origin migration",
+   "baseline": false
+  },
+  "app-protocol-handlers": {
+   "kind": "feature",
+   "name": "Protocol handlers",
+   "baseline": false
+  },
+  "app-share-targets": {
+   "kind": "feature",
+   "name": "Share targets",
+   "baseline": false
+  },
+  "app-shortcuts": {
+   "kind": "feature",
+   "name": "Application shortcuts",
+   "baseline": false
+  },
+  "appearance": {
+   "kind": "feature",
+   "name": "appearance",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "arguments-callee": {
+   "kind": "feature",
+   "name": "arguments.callee",
+   "baseline": false
+  },
+  "aria-attribute-reflection": {
+   "kind": "feature",
+   "name": "ARIA attribute reflection",
+   "baseline": "high",
+   "low": "2023-10-24",
+   "high": "2026-04-24"
+  },
+  "arianotify": {
+   "kind": "feature",
+   "name": "ariaNotify()",
+   "baseline": "low",
+   "low": "2026-09-14"
+  },
+  "array": {
+   "kind": "feature",
+   "name": "Array (initial support)",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "array-at": {
+   "kind": "feature",
+   "name": "Array at()",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "array-by-copy": {
+   "kind": "feature",
+   "name": "Array by copy",
+   "baseline": "high",
+   "low": "2023-07-04",
+   "high": "2026-01-04"
+  },
+  "array-copywithin": {
+   "kind": "feature",
+   "name": "Array copyWithin()",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "array-fill": {
+   "kind": "feature",
+   "name": "Array fill()",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "array-find": {
+   "kind": "feature",
+   "name": "Array find() and findIndex()",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "array-findlast": {
+   "kind": "feature",
+   "name": "Array findLast() and findLastIndex()",
+   "baseline": "high",
+   "low": "2022-08-23",
+   "high": "2025-02-23"
+  },
+  "array-flat": {
+   "kind": "feature",
+   "name": "Array flat() and flatMap()",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "array-from": {
+   "kind": "feature",
+   "name": "Array.from()",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "array-fromasync": {
+   "kind": "feature",
+   "name": "Array.fromAsync()",
+   "baseline": "high",
+   "low": "2024-01-25",
+   "high": "2026-07-25"
+  },
+  "array-group": {
+   "kind": "feature",
+   "name": "Array grouping",
+   "baseline": "high",
+   "low": "2024-03-05",
+   "high": "2026-09-05"
+  },
+  "array-includes": {
+   "kind": "feature",
+   "name": "Array includes()",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "array-isarray": {
+   "kind": "feature",
+   "name": "Array.isArray()",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "array-iteration-methods": {
+   "kind": "feature",
+   "name": "Array iteration methods",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "array-iterators": {
+   "kind": "feature",
+   "name": "Array iterators",
+   "baseline": "high",
+   "low": "2018-05-09",
+   "high": "2020-11-09"
+  },
+  "array-of": {
+   "kind": "feature",
+   "name": "Array.of()",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "array-splice": {
+   "kind": "feature",
+   "name": "Array splice()",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "article": {
+   "kind": "feature",
+   "name": "<article>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "aside": {
+   "kind": "feature",
+   "name": "<aside>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "aspect-ratio": {
+   "kind": "feature",
+   "name": "aspect-ratio",
+   "baseline": "high",
+   "low": "2021-09-20",
+   "high": "2024-03-20"
+  },
+  "async-await": {
+   "kind": "feature",
+   "name": "Async functions",
+   "baseline": "high",
+   "low": "2017-04-05",
+   "high": "2019-10-05"
+  },
+  "async-clipboard": {
+   "kind": "feature",
+   "name": "Async clipboard",
+   "baseline": "low",
+   "low": "2024-06-11"
+  },
+  "async-generators": {
+   "kind": "feature",
+   "name": "Async generators",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "async-iterable-streams": {
+   "kind": "feature",
+   "name": "Asynchronously iterable streams",
+   "baseline": "low",
+   "low": "2026-09-14"
+  },
+  "async-iterators": {
+   "kind": "feature",
+   "name": "Async iterators and the for await..of loop",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "atomics-pause": {
+   "kind": "feature",
+   "name": "Atomics.pause()",
+   "baseline": "low",
+   "low": "2025-04-01"
+  },
+  "atomics-wait-async": {
+   "kind": "feature",
+   "name": "Atomics.waitAsync()",
+   "baseline": "low",
+   "low": "2025-11-11"
+  },
+  "attr": {
+   "kind": "feature",
+   "name": "attr()",
+   "baseline": false
+  },
+  "attr-contents": {
+   "kind": "feature",
+   "name": "attr() (content only)",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "attribution-reporting": {
+   "kind": "feature",
+   "name": "Attribution reporting",
+   "baseline": false
+  },
+  "audio": {
+   "kind": "feature",
+   "name": "<audio>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "audio-session": {
+   "kind": "feature",
+   "name": "Audio session",
+   "baseline": false
+  },
+  "audio-video-tracks": {
+   "kind": "feature",
+   "name": "Audio and video tracks",
+   "baseline": false
+  },
+  "audio-worklet": {
+   "kind": "feature",
+   "name": "AudioWorklet",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "audiolistener": {
+   "kind": "feature",
+   "name": "AudioListener",
+   "baseline": false
+  },
+  "audiolistener-setposition-setorientation": {
+   "kind": "feature",
+   "name": "AudioListener setPosition() and setOrientation()",
+   "baseline": false,
+   "alternatives": [
+    "audiolistener"
+   ]
+  },
+  "autocapitalize": {
+   "kind": "feature",
+   "name": "autocapitalize",
+   "baseline": false
+  },
+  "autocorrect": {
+   "kind": "feature",
+   "name": "autocorrect",
+   "baseline": "low",
+   "low": "2026-09-11"
+  },
+  "autofill": {
+   "kind": "feature",
+   "name": ":autofill",
+   "baseline": false
+  },
+  "autofocus": {
+   "kind": "feature",
+   "name": "autofocus",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "autonomous-custom-elements": {
+   "kind": "feature",
+   "name": "Autonomous custom elements",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "avif": {
+   "kind": "feature",
+   "name": "AVIF",
+   "baseline": "high",
+   "low": "2024-01-25",
+   "high": "2026-07-25"
+  },
+  "b": {
+   "kind": "feature",
+   "name": "<b>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "backdrop": {
+   "kind": "feature",
+   "name": "::backdrop",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "backdrop-filter": {
+   "kind": "feature",
+   "name": "backdrop-filter",
+   "baseline": "low",
+   "low": "2024-09-16"
+  },
+  "background": {
+   "kind": "feature",
+   "name": "background",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "background-attachment": {
+   "kind": "feature",
+   "name": "background-attachment",
+   "baseline": false
+  },
+  "background-blend-mode": {
+   "kind": "feature",
+   "name": "background-blend-mode",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "background-clip": {
+   "kind": "feature",
+   "name": "background-clip",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "background-clip-border-area": {
+   "kind": "feature",
+   "name": "background-clip: border-area",
+   "baseline": false
+  },
+  "background-clip-text": {
+   "kind": "feature",
+   "name": "background-clip: text",
+   "baseline": false
+  },
+  "background-color": {
+   "kind": "feature",
+   "name": "background-color",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "background-fetch": {
+   "kind": "feature",
+   "name": "Background fetch",
+   "baseline": false
+  },
+  "background-image": {
+   "kind": "feature",
+   "name": "background-image",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "background-origin": {
+   "kind": "feature",
+   "name": "background-origin",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "background-position": {
+   "kind": "feature",
+   "name": "background-position",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "background-repeat": {
+   "kind": "feature",
+   "name": "background-repeat",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "background-size": {
+   "kind": "feature",
+   "name": "background-size",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "background-sync": {
+   "kind": "feature",
+   "name": "Background sync",
+   "baseline": false
+  },
+  "badging": {
+   "kind": "feature",
+   "name": "Badging",
+   "baseline": false
+  },
+  "barcode": {
+   "kind": "feature",
+   "name": "Barcode detector",
+   "baseline": false
+  },
+  "barprop": {
+   "kind": "feature",
+   "name": "BarProp",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "base": {
+   "kind": "feature",
+   "name": "<base>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "base64encodedecode": {
+   "kind": "feature",
+   "name": "Base64 encoding and decoding",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "baseline-shift": {
+   "kind": "feature",
+   "name": "baseline-shift",
+   "baseline": "low",
+   "low": "2026-03-24"
+  },
+  "baseline-source": {
+   "kind": "feature",
+   "name": "baseline-source",
+   "baseline": false
+  },
+  "battery": {
+   "kind": "feature",
+   "name": "Battery status",
+   "baseline": false
+  },
+  "bdi": {
+   "kind": "feature",
+   "name": "<bdi>",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "bdo": {
+   "kind": "feature",
+   "name": "<bdo>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "beacons": {
+   "kind": "feature",
+   "name": "Beacons",
+   "baseline": "high",
+   "low": "2018-04-12",
+   "high": "2020-10-12"
+  },
+  "before-after": {
+   "kind": "feature",
+   "name": "::before and ::after",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "beforeinstallprompt": {
+   "kind": "feature",
+   "name": "beforeinstallprompt",
+   "baseline": false
+  },
+  "beforeunload": {
+   "kind": "feature",
+   "name": "beforeunload",
+   "baseline": false
+  },
+  "bfcache-blocking-reasons": {
+   "kind": "feature",
+   "name": "Back/forward cache blocking reasons",
+   "baseline": false
+  },
+  "bigint": {
+   "kind": "feature",
+   "name": "BigInt",
+   "baseline": "high",
+   "low": "2020-09-16",
+   "high": "2023-03-16"
+  },
+  "bigint64array": {
+   "kind": "feature",
+   "name": "BigInt64Array",
+   "baseline": "high",
+   "low": "2021-09-20",
+   "high": "2024-03-20"
+  },
+  "blocking-render": {
+   "kind": "feature",
+   "name": "blocking=\"render\"",
+   "baseline": false
+  },
+  "blockquote": {
+   "kind": "feature",
+   "name": "<blockquote>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "bmp": {
+   "kind": "feature",
+   "name": "BMP",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "body": {
+   "kind": "feature",
+   "name": "<body>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "border-image": {
+   "kind": "feature",
+   "name": "Border images",
+   "baseline": "high",
+   "low": "2017-02-01",
+   "high": "2019-08-01"
+  },
+  "border-radius": {
+   "kind": "feature",
+   "name": "border-radius",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "border-shape": {
+   "kind": "feature",
+   "name": "border-shape",
+   "baseline": false
+  },
+  "borders": {
+   "kind": "feature",
+   "name": "Borders",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "box-decoration-break": {
+   "kind": "feature",
+   "name": "box-decoration-break",
+   "baseline": false
+  },
+  "box-shadow": {
+   "kind": "feature",
+   "name": "box-shadow",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "box-sizing": {
+   "kind": "feature",
+   "name": "box-sizing",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "br": {
+   "kind": "feature",
+   "name": "<br>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "broadcast-channel": {
+   "kind": "feature",
+   "name": "BroadcastChannel",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "brotli": {
+   "kind": "feature",
+   "name": "Brotli compression",
+   "baseline": "high",
+   "low": "2017-09-19",
+   "high": "2020-03-19"
+  },
+  "button": {
+   "kind": "feature",
+   "name": "<button>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "calc": {
+   "kind": "feature",
+   "name": "calc()",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "calc-constants": {
+   "kind": "feature",
+   "name": "calc() keywords",
+   "baseline": "high",
+   "low": "2023-06-06",
+   "high": "2025-12-06"
+  },
+  "calc-size": {
+   "kind": "feature",
+   "name": "calc-size()",
+   "baseline": false
+  },
+  "canvas": {
+   "kind": "feature",
+   "name": "<canvas>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "canvas-2d": {
+   "kind": "feature",
+   "name": "2D canvas",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "canvas-2d-alpha": {
+   "kind": "feature",
+   "name": "2D canvas opacity",
+   "baseline": false
+  },
+  "canvas-2d-color-management": {
+   "kind": "feature",
+   "name": "Color management for 2D canvas",
+   "baseline": false
+  },
+  "canvas-2d-desynchronized": {
+   "kind": "feature",
+   "name": "Desynchronized 2D canvas",
+   "baseline": false
+  },
+  "canvas-2d-willreadfrequently": {
+   "kind": "feature",
+   "name": "willReadFrequently",
+   "baseline": "low",
+   "low": "2024-09-16"
+  },
+  "canvas-context-lost": {
+   "kind": "feature",
+   "name": "contextlost and contextrestored",
+   "baseline": false
+  },
+  "canvas-createconicgradient": {
+   "kind": "feature",
+   "name": "Canvas createConicGradient()",
+   "baseline": "high",
+   "low": "2023-04-11",
+   "high": "2025-10-11"
+  },
+  "canvas-html": {
+   "kind": "feature",
+   "name": "HTML-in-canvas",
+   "baseline": false
+  },
+  "canvas-reset": {
+   "kind": "feature",
+   "name": "Canvas reset()",
+   "baseline": "high",
+   "low": "2023-12-11",
+   "high": "2026-06-11"
+  },
+  "canvas-roundrect": {
+   "kind": "feature",
+   "name": "Canvas roundRect()",
+   "baseline": "high",
+   "low": "2023-04-11",
+   "high": "2025-10-11"
+  },
+  "cap": {
+   "kind": "feature",
+   "name": "cap unit",
+   "baseline": "high",
+   "low": "2023-12-11",
+   "high": "2026-06-11"
+  },
+  "capture-handle": {
+   "kind": "feature",
+   "name": "Capture Handle",
+   "baseline": false
+  },
+  "capture-stream-audio-video": {
+   "kind": "feature",
+   "name": "captureStream() for <audio> and <video>",
+   "baseline": false
+  },
+  "capture-stream-canvas": {
+   "kind": "feature",
+   "name": "captureStream() for <canvas>",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "caret-color": {
+   "kind": "feature",
+   "name": "caret-color",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "caret-shape": {
+   "kind": "feature",
+   "name": "caret-shape",
+   "baseline": false
+  },
+  "cascade-layers": {
+   "kind": "feature",
+   "name": "Cascade layers",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "case-insensitive-attributes": {
+   "kind": "feature",
+   "name": "Case-insensitive attribute selector",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "case-sensitive-attributes": {
+   "kind": "feature",
+   "name": "Case-sensitive attribute selector",
+   "baseline": false
+  },
+  "ch": {
+   "kind": "feature",
+   "name": "ch unit",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "change-event": {
+   "kind": "feature",
+   "name": "Change event",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "channel-messaging": {
+   "kind": "feature",
+   "name": "Channel messaging",
+   "baseline": "high",
+   "low": "2015-09-22",
+   "high": "2018-03-22"
+  },
+  "charset": {
+   "kind": "feature",
+   "name": "@charset",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "check-visibility": {
+   "kind": "feature",
+   "name": "checkVisibility()",
+   "baseline": "high",
+   "low": "2024-03-05",
+   "high": "2026-09-05"
+  },
+  "cite": {
+   "kind": "feature",
+   "name": "<cite>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "class-syntax": {
+   "kind": "feature",
+   "name": "Classes",
+   "baseline": "high",
+   "low": "2016-03-08",
+   "high": "2018-09-08"
+  },
+  "clear-site-data": {
+   "kind": "feature",
+   "name": "Clearing site data",
+   "baseline": false
+  },
+  "clip": {
+   "kind": "feature",
+   "name": "clip",
+   "baseline": false,
+   "alternatives": [
+    "clip-path"
+   ]
+  },
+  "clip-path": {
+   "kind": "feature",
+   "name": "clip-path",
+   "baseline": "high",
+   "low": "2021-01-21",
+   "high": "2023-07-21"
+  },
+  "clip-path-animatable": {
+   "kind": "feature",
+   "name": "Animatable clipping paths",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "clip-path-boxes": {
+   "kind": "feature",
+   "name": "Clip path boxes",
+   "baseline": "high",
+   "low": "2023-11-02",
+   "high": "2026-05-02"
+  },
+  "clipboard-custom-format": {
+   "kind": "feature",
+   "name": "Custom formats for clipboard items",
+   "baseline": false
+  },
+  "clipboard-events": {
+   "kind": "feature",
+   "name": "Clipboard events",
+   "baseline": "high",
+   "low": "2017-03-27",
+   "high": "2019-09-27"
+  },
+  "clipboard-supports": {
+   "kind": "feature",
+   "name": "ClipboardItem.supports()",
+   "baseline": "low",
+   "low": "2025-03-31"
+  },
+  "clipboard-svg": {
+   "kind": "feature",
+   "name": "SVG clipboard items",
+   "baseline": false
+  },
+  "clipboard-unsanitized-formats": {
+   "kind": "feature",
+   "name": "Read unsanitized clipboard data",
+   "baseline": false
+  },
+  "clipboardchange": {
+   "kind": "feature",
+   "name": "clipboardchange",
+   "baseline": false
+  },
+  "closewatcher": {
+   "kind": "feature",
+   "name": "CloseWatcher",
+   "baseline": false
+  },
+  "code": {
+   "kind": "feature",
+   "name": "<code>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "color": {
+   "kind": "feature",
+   "name": "Color",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "color-adjust": {
+   "kind": "feature",
+   "name": "color-adjust",
+   "baseline": false,
+   "alternatives": [
+    "print-color-adjust"
+   ]
+  },
+  "color-contrast": {
+   "kind": "feature",
+   "name": "color-contrast()",
+   "baseline": false,
+   "alternatives": [
+    "contrast-color"
+   ]
+  },
+  "color-function": {
+   "kind": "feature",
+   "name": "color()",
+   "baseline": "high",
+   "low": "2023-05-09",
+   "high": "2025-11-09"
+  },
+  "color-gamut": {
+   "kind": "feature",
+   "name": "color-gamut media query",
+   "baseline": "high",
+   "low": "2023-02-14",
+   "high": "2025-08-14"
+  },
+  "color-mix": {
+   "kind": "feature",
+   "name": "color-mix()",
+   "baseline": "high",
+   "low": "2023-05-09",
+   "high": "2025-11-09"
+  },
+  "color-mix-variadic": {
+   "kind": "feature",
+   "name": "color-mix() with three or more colors",
+   "baseline": false
+  },
+  "color-scheme": {
+   "kind": "feature",
+   "name": "color-scheme",
+   "baseline": "high",
+   "low": "2022-02-03",
+   "high": "2024-08-03"
+  },
+  "colrv0": {
+   "kind": "feature",
+   "name": "COLRv0",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "colrv1": {
+   "kind": "feature",
+   "name": "COLRv1",
+   "baseline": false
+  },
+  "column-breaks": {
+   "kind": "feature",
+   "name": "Column breaks",
+   "baseline": false
+  },
+  "column-fill": {
+   "kind": "feature",
+   "name": "column-fill",
+   "baseline": "high",
+   "low": "2017-03-07",
+   "high": "2019-09-07"
+  },
+  "column-pseudo": {
+   "kind": "feature",
+   "name": "::column",
+   "baseline": false
+  },
+  "column-span": {
+   "kind": "feature",
+   "name": "column-span",
+   "baseline": "high",
+   "low": "2020-07-28",
+   "high": "2023-01-28"
+  },
+  "column-wrap": {
+   "kind": "feature",
+   "name": "column-wrap",
+   "baseline": false
+  },
+  "composed-ranges": {
+   "kind": "feature",
+   "name": "Selection composed ranges",
+   "baseline": "low",
+   "low": "2025-08-19"
+  },
+  "composition-events": {
+   "kind": "feature",
+   "name": "Composition events",
+   "baseline": "high",
+   "low": "2017-04-19",
+   "high": "2019-10-19"
+  },
+  "compression-dictionary-transport": {
+   "kind": "feature",
+   "name": "Compression Dictionary Transport",
+   "baseline": false
+  },
+  "compression-streams": {
+   "kind": "feature",
+   "name": "Compression streams",
+   "baseline": "high",
+   "low": "2023-05-09",
+   "high": "2025-11-09"
+  },
+  "compute-pressure": {
+   "kind": "feature",
+   "name": "CPU compute pressure",
+   "baseline": false
+  },
+  "conic-gradients": {
+   "kind": "feature",
+   "name": "Conic gradients",
+   "baseline": "high",
+   "low": "2020-11-17",
+   "high": "2023-05-17"
+  },
+  "connection-allowlists": {
+   "kind": "feature",
+   "name": "Connection allowlists",
+   "baseline": false
+  },
+  "console": {
+   "kind": "feature",
+   "name": "Console",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "constraint-validation": {
+   "kind": "feature",
+   "name": "Constraint validation API",
+   "baseline": "high",
+   "low": "2018-12-11",
+   "high": "2021-06-11"
+  },
+  "constructed-stylesheets": {
+   "kind": "feature",
+   "name": "Constructed stylesheets",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "contact-picker": {
+   "kind": "feature",
+   "name": "Contact picker",
+   "baseline": false
+  },
+  "contain": {
+   "kind": "feature",
+   "name": "contain",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "contain-inline-size": {
+   "kind": "feature",
+   "name": "Inline-size containment",
+   "baseline": "high",
+   "low": "2022-09-12",
+   "high": "2025-03-12"
+  },
+  "contain-intrinsic-size": {
+   "kind": "feature",
+   "name": "contain-intrinsic-size",
+   "baseline": "high",
+   "low": "2023-09-18",
+   "high": "2026-03-18"
+  },
+  "contain-layout": {
+   "kind": "feature",
+   "name": "Layout containment",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "contain-paint": {
+   "kind": "feature",
+   "name": "Paint containment",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "contain-size": {
+   "kind": "feature",
+   "name": "Size containment",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "contain-style": {
+   "kind": "feature",
+   "name": "Style containment",
+   "baseline": "high",
+   "low": "2022-07-26",
+   "high": "2025-01-26"
+  },
+  "container-anchor-position-queries": {
+   "kind": "feature",
+   "name": "Anchor position container queries",
+   "baseline": false
+  },
+  "container-name-queries": {
+   "kind": "feature",
+   "name": "Name-only container queries",
+   "baseline": "low",
+   "low": "2026-05-07"
+  },
+  "container-queries": {
+   "kind": "feature",
+   "name": "Container queries (size)",
+   "baseline": "high",
+   "low": "2023-02-14",
+   "high": "2025-08-14"
+  },
+  "container-scroll-state-queries": {
+   "kind": "feature",
+   "name": "Container scroll-state queries",
+   "baseline": false
+  },
+  "container-style-queries": {
+   "kind": "feature",
+   "name": "Container style queries",
+   "baseline": "low",
+   "low": "2026-05-19"
+  },
+  "container-timing": {
+   "kind": "feature",
+   "name": "Container timing performance entries",
+   "baseline": false
+  },
+  "content": {
+   "kind": "feature",
+   "name": "Content",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "content-index": {
+   "kind": "feature",
+   "name": "Content Index",
+   "baseline": false
+  },
+  "content-visibility": {
+   "kind": "feature",
+   "name": "content-visibility",
+   "baseline": "low",
+   "low": "2025-09-15"
+  },
+  "contenteditable": {
+   "kind": "feature",
+   "name": "contenteditable",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "contenteditable-plaintextonly": {
+   "kind": "feature",
+   "name": "contenteditable=\"plaintext-only\"",
+   "baseline": "low",
+   "low": "2025-03-04"
+  },
+  "context-fill-stroke": {
+   "kind": "feature",
+   "name": "context-fill and context-stroke",
+   "baseline": false
+  },
+  "contrast-color": {
+   "kind": "feature",
+   "name": "contrast-color()",
+   "baseline": "low",
+   "low": "2026-04-10"
+  },
+  "controls-list": {
+   "kind": "feature",
+   "name": "controlslist",
+   "baseline": false
+  },
+  "cookie-enabled": {
+   "kind": "feature",
+   "name": "cookieEnabled",
+   "baseline": "low",
+   "low": "2024-09-16"
+  },
+  "cookie-store": {
+   "kind": "feature",
+   "name": "Cookie store",
+   "baseline": false
+  },
+  "cookie-store-get-metadata": {
+   "kind": "feature",
+   "name": "cookieStore.get() metadata",
+   "baseline": false
+  },
+  "cookies": {
+   "kind": "feature",
+   "name": "Cookies",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "corner-shape": {
+   "kind": "feature",
+   "name": "corner-shape",
+   "baseline": false
+  },
+  "cors": {
+   "kind": "feature",
+   "name": "CORS",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "counter-reset-reversed": {
+   "kind": "feature",
+   "name": "Reversed counter-reset",
+   "baseline": false
+  },
+  "counter-set": {
+   "kind": "feature",
+   "name": "counter-set",
+   "baseline": "high",
+   "low": "2023-12-11",
+   "high": "2026-06-11"
+  },
+  "counter-style": {
+   "kind": "feature",
+   "name": "@counter-style",
+   "baseline": "high",
+   "low": "2023-09-18",
+   "high": "2026-03-18"
+  },
+  "counters": {
+   "kind": "feature",
+   "name": "Counters (CSS)",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "createimagebitmap": {
+   "kind": "feature",
+   "name": "createImageBitmap",
+   "baseline": "high",
+   "low": "2023-12-11",
+   "high": "2026-06-11"
+  },
+  "credential-management": {
+   "kind": "feature",
+   "name": "Credential management",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "crisp-edges": {
+   "kind": "feature",
+   "name": "crisp-edges",
+   "baseline": "low",
+   "low": "2026-05-07"
+  },
+  "cross-document-view-transitions": {
+   "kind": "feature",
+   "name": "Cross-document view transitions",
+   "baseline": false
+  },
+  "cross-fade": {
+   "kind": "feature",
+   "name": "cross-fade()",
+   "baseline": false
+  },
+  "csp": {
+   "kind": "feature",
+   "name": "Content Security Policy (CSP)",
+   "baseline": "high",
+   "low": "2016-08-02",
+   "high": "2019-02-02"
+  },
+  "css-escape": {
+   "kind": "feature",
+   "name": "CSS.escape()",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "css-modules": {
+   "kind": "feature",
+   "name": "CSS import attributes",
+   "baseline": false
+  },
+  "css-object-model": {
+   "kind": "feature",
+   "name": "CSS object model",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "css-object-model-csspseudoelement": {
+   "kind": "feature",
+   "name": "CSSPseudoElement",
+   "baseline": false
+  },
+  "css-object-model-discouraged": {
+   "kind": "feature",
+   "name": "CSS object model (DOM level 2)",
+   "baseline": false,
+   "alternatives": [
+    "css-object-model"
+   ]
+  },
+  "css-supports": {
+   "kind": "feature",
+   "name": "CSS.supports()",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "css-typed-om": {
+   "kind": "feature",
+   "name": "CSS typed object model",
+   "baseline": false
+  },
+  "cubic-bezier-easing": {
+   "kind": "feature",
+   "name": "cubic-bezier() easing",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "currentcolor": {
+   "kind": "feature",
+   "name": "currentColor",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "cursor": {
+   "kind": "feature",
+   "name": "Cursor styles",
+   "baseline": false
+  },
+  "custom-ellipses": {
+   "kind": "feature",
+   "name": "Custom ellipses",
+   "baseline": false
+  },
+  "custom-media-queries": {
+   "kind": "feature",
+   "name": "Custom media queries",
+   "baseline": false
+  },
+  "custom-properties": {
+   "kind": "feature",
+   "name": "Custom properties",
+   "baseline": "high",
+   "low": "2017-04-05",
+   "high": "2019-10-05"
+  },
+  "customizable-select": {
+   "kind": "feature",
+   "name": "Customizable <select>",
+   "baseline": false
+  },
+  "customized-built-in-elements": {
+   "kind": "feature",
+   "name": "Customized built-in elements",
+   "baseline": false
+  },
+  "data": {
+   "kind": "feature",
+   "name": "<data>",
+   "baseline": "high",
+   "low": "2017-10-24",
+   "high": "2020-04-24"
+  },
+  "data-urls": {
+   "kind": "feature",
+   "name": "Data URLs",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "datalist": {
+   "kind": "feature",
+   "name": "<datalist>",
+   "baseline": false
+  },
+  "dataset": {
+   "kind": "feature",
+   "name": "Dataset",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "date": {
+   "kind": "feature",
+   "name": "Date",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "date-get-year-set-year": {
+   "kind": "feature",
+   "name": "getYear() and setYear()",
+   "baseline": false
+  },
+  "date-to-gmt-string": {
+   "kind": "feature",
+   "name": "toGMTString()",
+   "baseline": false
+  },
+  "declarative-shadow-dom": {
+   "kind": "feature",
+   "name": "Declarative shadow DOM",
+   "baseline": "high",
+   "low": "2024-02-20",
+   "high": "2026-08-20"
+  },
+  "declarative-webmcp": {
+   "kind": "feature",
+   "name": "Form-associated WebMCP attributes",
+   "baseline": false
+  },
+  "dedicated-workers": {
+   "kind": "feature",
+   "name": "Dedicated workers",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "default": {
+   "kind": "feature",
+   "name": ":default",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "del": {
+   "kind": "feature",
+   "name": "<del>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "description-list": {
+   "kind": "feature",
+   "name": "Description list",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "destructuring": {
+   "kind": "feature",
+   "name": "Destructuring",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "details": {
+   "kind": "feature",
+   "name": "<details>",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "details-content": {
+   "kind": "feature",
+   "name": "::details-content",
+   "baseline": "low",
+   "low": "2025-09-16"
+  },
+  "details-name": {
+   "kind": "feature",
+   "name": "Mutually exclusive <details> elements",
+   "baseline": "low",
+   "low": "2024-09-03"
+  },
+  "device-bound-session-credentials": {
+   "kind": "feature",
+   "name": "Device-bound session credentials",
+   "baseline": false
+  },
+  "device-memory": {
+   "kind": "feature",
+   "name": "Device memory",
+   "baseline": false
+  },
+  "device-orientation-events": {
+   "kind": "feature",
+   "name": "Device orientation events",
+   "baseline": "high",
+   "low": "2023-09-18",
+   "high": "2026-03-18"
+  },
+  "device-posture": {
+   "kind": "feature",
+   "name": "Device posture",
+   "baseline": false
+  },
+  "device-queries": {
+   "kind": "feature",
+   "name": "Device media queries",
+   "baseline": false,
+   "alternatives": [
+    "media-queries"
+   ]
+  },
+  "devicepixelratio": {
+   "kind": "feature",
+   "name": "devicePixelRatio",
+   "baseline": false
+  },
+  "dfn": {
+   "kind": "feature",
+   "name": "<dfn>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "dialog": {
+   "kind": "feature",
+   "name": "<dialog>",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "dialog-closedby": {
+   "kind": "feature",
+   "name": "<dialog closedby>",
+   "baseline": false
+  },
+  "digital-credentials": {
+   "kind": "feature",
+   "name": "Digital credentials",
+   "baseline": false
+  },
+  "digital-goods": {
+   "kind": "feature",
+   "name": "Digital goods",
+   "baseline": false
+  },
+  "dir": {
+   "kind": "feature",
+   "name": "dir",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "dir-pseudo": {
+   "kind": "feature",
+   "name": ":dir()",
+   "baseline": "high",
+   "low": "2023-12-07",
+   "high": "2026-06-07"
+  },
+  "dirname": {
+   "kind": "feature",
+   "name": "dirname",
+   "baseline": "high",
+   "low": "2023-08-01",
+   "high": "2026-02-01"
+  },
+  "display": {
+   "kind": "feature",
+   "name": "Display",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "display-animation": {
+   "kind": "feature",
+   "name": "display animation",
+   "baseline": false
+  },
+  "display-contents": {
+   "kind": "feature",
+   "name": "display: contents",
+   "baseline": false
+  },
+  "display-flow-root": {
+   "kind": "feature",
+   "name": "display: flow-root",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "display-grid-lanes": {
+   "kind": "moved",
+   "redirects": [
+    "grid-lanes"
+   ]
+  },
+  "display-list-item": {
+   "kind": "feature",
+   "name": "display: list-item",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "display-mode": {
+   "kind": "feature",
+   "name": "display-mode media query",
+   "baseline": false
+  },
+  "display-ruby": {
+   "kind": "feature",
+   "name": "display: ruby",
+   "baseline": false
+  },
+  "display-state": {
+   "kind": "feature",
+   "name": "display-state media query",
+   "baseline": false
+  },
+  "display-table": {
+   "kind": "feature",
+   "name": "display: table",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "div": {
+   "kind": "feature",
+   "name": "<div>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "document-caretpositionfrompoint": {
+   "kind": "feature",
+   "name": "document.caretPositionFromPoint()",
+   "baseline": "low",
+   "low": "2025-12-12"
+  },
+  "document-colors": {
+   "kind": "feature",
+   "name": "Document colors",
+   "baseline": false,
+   "alternatives": [
+    "background-color",
+    "color",
+    "css-object-model",
+    "get-computed-style"
+   ]
+  },
+  "document-isolation-policy": {
+   "kind": "feature",
+   "name": "Document-Isolation-Policy",
+   "baseline": false
+  },
+  "document-modelcontext": {
+   "kind": "feature",
+   "name": "document.modelContext",
+   "baseline": false
+  },
+  "document-picture-in-picture": {
+   "kind": "feature",
+   "name": "Document picture-in-picture",
+   "baseline": false
+  },
+  "document-write": {
+   "kind": "feature",
+   "name": "document.write()",
+   "baseline": false,
+   "alternatives": [
+    "dom"
+   ]
+  },
+  "dom": {
+   "kind": "feature",
+   "name": "DOM",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "dom-geometry": {
+   "kind": "feature",
+   "name": "DOM Geometry",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "dominant-baseline": {
+   "kind": "feature",
+   "name": "dominant-baseline",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "domparser": {
+   "kind": "feature",
+   "name": "DOMParser",
+   "baseline": "high",
+   "low": "2016-03-21",
+   "high": "2018-09-21"
+  },
+  "download": {
+   "kind": "feature",
+   "name": "download",
+   "baseline": "high",
+   "low": "2019-09-19",
+   "high": "2022-03-19"
+  },
+  "draganddrop": {
+   "kind": "feature",
+   "name": "Drag and Drop",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "dynamic-range": {
+   "kind": "feature",
+   "name": "dynamic-range media query",
+   "baseline": "high",
+   "low": "2022-05-03",
+   "high": "2024-11-03"
+  },
+  "dynamic-range-limit": {
+   "kind": "feature",
+   "name": "dynamic-range-limit",
+   "baseline": false
+  },
+  "early-data": {
+   "kind": "feature",
+   "name": "Early data",
+   "baseline": false
+  },
+  "edit-context": {
+   "kind": "feature",
+   "name": "EditContext",
+   "baseline": false
+  },
+  "element": {
+   "kind": "feature",
+   "name": "element()",
+   "baseline": false
+  },
+  "element-capture": {
+   "kind": "feature",
+   "name": "Element capture",
+   "baseline": false
+  },
+  "element-from-point": {
+   "kind": "feature",
+   "name": "document.elementFromPoint() and document.elementsFromPoint()",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "element-timing": {
+   "kind": "feature",
+   "name": "Element timing performance entries",
+   "baseline": false
+  },
+  "em": {
+   "kind": "feature",
+   "name": "<em>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "em-unit": {
+   "kind": "feature",
+   "name": "em unit",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "embed": {
+   "kind": "feature",
+   "name": "<embed>",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "empty": {
+   "kind": "feature",
+   "name": ":empty",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "encrypted-media-extensions": {
+   "kind": "feature",
+   "name": "Encrypted media extensions",
+   "baseline": "high",
+   "low": "2019-03-25",
+   "high": "2021-09-25"
+  },
+  "enterkeyhint": {
+   "kind": "feature",
+   "name": "enterkeyhint",
+   "baseline": "high",
+   "low": "2021-11-02",
+   "high": "2024-05-02"
+  },
+  "error-cause": {
+   "kind": "feature",
+   "name": "Error cause",
+   "baseline": "high",
+   "low": "2021-09-20",
+   "high": "2024-03-20"
+  },
+  "escape-unescape": {
+   "kind": "feature",
+   "name": "escape() and unescape()",
+   "baseline": false
+  },
+  "event-timing": {
+   "kind": "feature",
+   "name": "Event timing performance entries",
+   "baseline": "low",
+   "low": "2025-12-12"
+  },
+  "events": {
+   "kind": "feature",
+   "name": "Events",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "ex": {
+   "kind": "feature",
+   "name": "ex unit",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "execcommand": {
+   "kind": "feature",
+   "name": "execCommand()",
+   "baseline": false,
+   "alternatives": [
+    "async-clipboard",
+    "contenteditable"
+   ]
+  },
+  "exp-functions": {
+   "kind": "feature",
+   "name": "Exponential functions (CSS)",
+   "baseline": "high",
+   "low": "2023-12-07",
+   "high": "2026-06-07"
+  },
+  "explicit-resource-management": {
+   "kind": "feature",
+   "name": "Explicit resource management",
+   "baseline": false
+  },
+  "exponentiation": {
+   "kind": "feature",
+   "name": "Exponentiation operator",
+   "baseline": "high",
+   "low": "2017-03-27",
+   "high": "2019-09-27"
+  },
+  "ext-blend-minmax": {
+   "kind": "feature",
+   "name": "EXT_blend_minmax WebGL extension",
+   "baseline": "high",
+   "low": "2018-04-30",
+   "high": "2020-10-30"
+  },
+  "ext-color-buffer-float": {
+   "kind": "feature",
+   "name": "EXT_color_buffer_float WebGL extension",
+   "baseline": "high",
+   "low": "2021-09-20",
+   "high": "2024-03-20"
+  },
+  "ext-color-buffer-half-float": {
+   "kind": "feature",
+   "name": "EXT_color_buffer_half_float WebGL extension",
+   "baseline": "high",
+   "low": "2020-09-16",
+   "high": "2023-03-16"
+  },
+  "ext-disjoint-timer-query": {
+   "kind": "feature",
+   "name": "EXT_disjoint_timer_query WebGL extension",
+   "baseline": false
+  },
+  "ext-float-blend": {
+   "kind": "feature",
+   "name": "EXT_float_blend WebGL extension",
+   "baseline": false
+  },
+  "ext-frag-depth": {
+   "kind": "feature",
+   "name": "EXT_frag_depth WebGL extension",
+   "baseline": false
+  },
+  "ext-shader-texture-lod": {
+   "kind": "feature",
+   "name": "EXT_shader_texture_lod WebGL extension",
+   "baseline": "high",
+   "low": "2021-09-02",
+   "high": "2024-03-02"
+  },
+  "ext-srgb": {
+   "kind": "feature",
+   "name": "EXT_sRGB WebGL extension",
+   "baseline": "high",
+   "low": "2020-02-07",
+   "high": "2022-08-07"
+  },
+  "ext-texture-compression-bptc": {
+   "kind": "feature",
+   "name": "EXT_texture_compression_bptc WebGL extension",
+   "baseline": false
+  },
+  "ext-texture-compression-rgtc": {
+   "kind": "feature",
+   "name": "EXT_texture_compression_rgtc WebGL extension",
+   "baseline": "low",
+   "low": "2025-05-12"
+  },
+  "ext-texture-filter-anisotropic": {
+   "kind": "feature",
+   "name": "EXT_texture_filter_anisotropic WebGL extension",
+   "baseline": "high",
+   "low": "2016-06-07",
+   "high": "2018-12-07"
+  },
+  "ext-texture-norm16": {
+   "kind": "feature",
+   "name": "EXT_texture_norm16 WebGL extension",
+   "baseline": "low",
+   "low": "2026-10-27"
+  },
+  "external": {
+   "kind": "feature",
+   "name": "window.external",
+   "baseline": false
+  },
+  "eyedropper": {
+   "kind": "feature",
+   "name": "Eyedropper",
+   "baseline": false
+  },
+  "fast-seek": {
+   "kind": "feature",
+   "name": "fastSeek()",
+   "baseline": false
+  },
+  "feature-policy": {
+   "kind": "feature",
+   "name": "Feature policy",
+   "baseline": false,
+   "alternatives": [
+    "permissions-policy"
+   ]
+  },
+  "fedcm": {
+   "kind": "feature",
+   "name": "Federated credential management",
+   "baseline": false
+  },
+  "federated-credentials": {
+   "kind": "feature",
+   "name": "Federated credentials",
+   "baseline": false
+  },
+  "fencedframe": {
+   "kind": "feature",
+   "name": "<fencedframe>",
+   "baseline": false
+  },
+  "fetch": {
+   "kind": "feature",
+   "name": "Fetch",
+   "baseline": "high",
+   "low": "2017-03-27",
+   "high": "2019-09-27"
+  },
+  "fetch-formdata": {
+   "kind": "feature",
+   "name": "Fetch form data",
+   "baseline": false
+  },
+  "fetch-metadata": {
+   "kind": "feature",
+   "name": "Fetch metadata request headers",
+   "baseline": false
+  },
+  "fetch-priority": {
+   "kind": "feature",
+   "name": "Fetch priority",
+   "baseline": "low",
+   "low": "2024-10-29"
+  },
+  "fetch-request-streams": {
+   "kind": "feature",
+   "name": "Fetch upload streams",
+   "baseline": false
+  },
+  "fetchlater": {
+   "kind": "feature",
+   "name": "fetchLater",
+   "baseline": false
+  },
+  "field-sizing": {
+   "kind": "feature",
+   "name": "field-sizing",
+   "baseline": "low",
+   "low": "2026-06-16"
+  },
+  "fieldset": {
+   "kind": "feature",
+   "name": "<fieldset> and <legend>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "figure": {
+   "kind": "feature",
+   "name": "<figure> and <figcaption>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "file": {
+   "kind": "feature",
+   "name": "File API",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "file-selector-button": {
+   "kind": "feature",
+   "name": "::file-selector-button",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "file-system-access": {
+   "kind": "feature",
+   "name": "File system access",
+   "baseline": false
+  },
+  "filter": {
+   "kind": "feature",
+   "name": "filter",
+   "baseline": "high",
+   "low": "2016-09-07",
+   "high": "2019-03-07"
+  },
+  "filter-function": {
+   "kind": "feature",
+   "name": "filter()",
+   "baseline": false
+  },
+  "first-letter": {
+   "kind": "feature",
+   "name": "::first-letter",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "first-line": {
+   "kind": "feature",
+   "name": "::first-line",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "fit-content": {
+   "kind": "feature",
+   "name": "fit-content",
+   "baseline": "high",
+   "low": "2021-11-02",
+   "high": "2024-05-02"
+  },
+  "fit-content-function": {
+   "kind": "feature",
+   "name": "fit-content()",
+   "baseline": false
+  },
+  "fixed-positioning": {
+   "kind": "feature",
+   "name": "Fixed positioning",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "flexbox": {
+   "kind": "feature",
+   "name": "Flexbox",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "flexbox-flex-wrap-balance": {
+   "kind": "feature",
+   "name": "flex-wrap: balance",
+   "baseline": false
+  },
+  "flexbox-gap": {
+   "kind": "feature",
+   "name": "Flexbox gap",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "float-clear": {
+   "kind": "feature",
+   "name": "float and clear",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "float16array": {
+   "kind": "feature",
+   "name": "Float16Array",
+   "baseline": "low",
+   "low": "2025-04-04"
+  },
+  "focus-events": {
+   "kind": "feature",
+   "name": "Focus events",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "focus-visible": {
+   "kind": "feature",
+   "name": ":focus-visible",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "focus-within": {
+   "kind": "feature",
+   "name": ":focus-within",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "focusgroup": {
+   "kind": "feature",
+   "name": "focusgroup",
+   "baseline": false
+  },
+  "font-display": {
+   "kind": "feature",
+   "name": "font-display",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "font-face": {
+   "kind": "feature",
+   "name": "@font-face",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "font-family": {
+   "kind": "feature",
+   "name": "font-family",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "font-family-math": {
+   "kind": "feature",
+   "name": "Math font family",
+   "baseline": "low",
+   "low": "2026-03-24"
+  },
+  "font-family-system": {
+   "kind": "feature",
+   "name": "System font",
+   "baseline": "high",
+   "low": "2021-09-07",
+   "high": "2024-03-07"
+  },
+  "font-family-ui": {
+   "kind": "feature",
+   "name": "UI fonts",
+   "baseline": false
+  },
+  "font-feature-settings": {
+   "kind": "feature",
+   "name": "font-feature-settings",
+   "baseline": "high",
+   "low": "2016-03-21",
+   "high": "2018-09-21"
+  },
+  "font-kerning": {
+   "kind": "feature",
+   "name": "font-kerning",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "font-language-override": {
+   "kind": "feature",
+   "name": "font-language-override",
+   "baseline": false
+  },
+  "font-loading": {
+   "kind": "feature",
+   "name": "Font loading",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "font-metric-overrides": {
+   "kind": "feature",
+   "name": "Font metric overrides",
+   "baseline": false
+  },
+  "font-optical-sizing": {
+   "kind": "feature",
+   "name": "font-optical-sizing",
+   "baseline": "high",
+   "low": "2020-03-24",
+   "high": "2022-09-24"
+  },
+  "font-palette": {
+   "kind": "feature",
+   "name": "font-palette",
+   "baseline": "high",
+   "low": "2022-11-15",
+   "high": "2025-05-15"
+  },
+  "font-palette-animation": {
+   "kind": "feature",
+   "name": "font-palette animation",
+   "baseline": false
+  },
+  "font-shorthand": {
+   "kind": "feature",
+   "name": "Font shorthand",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "font-size": {
+   "kind": "feature",
+   "name": "font-size",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "font-size-adjust": {
+   "kind": "feature",
+   "name": "font-size-adjust",
+   "baseline": "low",
+   "low": "2024-07-25"
+  },
+  "font-stretch": {
+   "kind": "feature",
+   "name": "font-stretch",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "font-style": {
+   "kind": "feature",
+   "name": "font-style",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "font-synthesis": {
+   "kind": "feature",
+   "name": "font-synthesis",
+   "baseline": "high",
+   "low": "2022-01-06",
+   "high": "2024-07-06"
+  },
+  "font-synthesis-position": {
+   "kind": "feature",
+   "name": "font-synthesis-position",
+   "baseline": false
+  },
+  "font-synthesis-small-caps": {
+   "kind": "feature",
+   "name": "font-synthesis-small-caps",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "font-synthesis-style": {
+   "kind": "feature",
+   "name": "font-synthesis-style",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "font-synthesis-weight": {
+   "kind": "feature",
+   "name": "font-synthesis-weight",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "font-variant": {
+   "kind": "feature",
+   "name": "font-variant",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "font-variant-alternates": {
+   "kind": "feature",
+   "name": "font-variant-alternates",
+   "baseline": "high",
+   "low": "2023-03-13",
+   "high": "2025-09-13"
+  },
+  "font-variant-caps": {
+   "kind": "feature",
+   "name": "font-variant-caps",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "font-variant-east-asian": {
+   "kind": "feature",
+   "name": "font-variant-east-asian",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "font-variant-emoji": {
+   "kind": "feature",
+   "name": "font-variant-emoji",
+   "baseline": false
+  },
+  "font-variant-ligatures": {
+   "kind": "feature",
+   "name": "font-variant-ligatures",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "font-variant-numeric": {
+   "kind": "feature",
+   "name": "font-variant-numeric",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "font-variant-position": {
+   "kind": "feature",
+   "name": "font-variant-position",
+   "baseline": false
+  },
+  "font-variation-settings": {
+   "kind": "feature",
+   "name": "font-variation-settings",
+   "baseline": "high",
+   "low": "2018-09-05",
+   "high": "2021-03-05"
+  },
+  "font-weight": {
+   "kind": "feature",
+   "name": "font-weight",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "font-width": {
+   "kind": "feature",
+   "name": "font-width",
+   "baseline": false
+  },
+  "forced-colors": {
+   "kind": "feature",
+   "name": "Forced colors",
+   "baseline": "high",
+   "low": "2022-09-12",
+   "high": "2025-03-12"
+  },
+  "form": {
+   "kind": "feature",
+   "name": "<form>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "form-associated-custom-elements": {
+   "kind": "feature",
+   "name": "Form-associated custom elements",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "form-validity-pseudos": {
+   "kind": "feature",
+   "name": "Form validity pseudo-classes",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "frame-sizing": {
+   "kind": "feature",
+   "name": "Responsive iframes",
+   "baseline": false
+  },
+  "fullscreen": {
+   "kind": "feature",
+   "name": "Fullscreen API",
+   "baseline": false
+  },
+  "function": {
+   "kind": "feature",
+   "name": "@function",
+   "baseline": false
+  },
+  "functions": {
+   "kind": "feature",
+   "name": "Functions",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "functions-caller-arguments": {
+   "kind": "feature",
+   "name": "Function caller and arguments",
+   "baseline": false
+  },
+  "gamepad": {
+   "kind": "feature",
+   "name": "Gamepad",
+   "baseline": "high",
+   "low": "2017-03-27",
+   "high": "2019-09-27"
+  },
+  "gamepad-haptics": {
+   "kind": "feature",
+   "name": "Gamepad haptic feedback",
+   "baseline": false
+  },
+  "gamepad-touch": {
+   "kind": "feature",
+   "name": "Gamepad touch buttons",
+   "baseline": false
+  },
+  "gamepad-vr": {
+   "kind": "feature",
+   "name": "Gamepad VR hands and poses",
+   "baseline": false
+  },
+  "gamut-mapping": {
+   "kind": "feature",
+   "name": "Gamut mapping",
+   "baseline": false
+  },
+  "gap-decorations": {
+   "kind": "feature",
+   "name": "Gap decorations",
+   "baseline": false
+  },
+  "generators": {
+   "kind": "feature",
+   "name": "Generators",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "geolocation": {
+   "kind": "feature",
+   "name": "Geolocation API",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "geolocation-element": {
+   "kind": "feature",
+   "name": "<geolocation>",
+   "baseline": false
+  },
+  "geolocation-element-initialpermissionstatus": {
+   "kind": "feature",
+   "name": "HTMLGeolocationElement initialPermissionStatus",
+   "baseline": false
+  },
+  "get-computed-style": {
+   "kind": "feature",
+   "name": "getComputedStyle()",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "getallrecords": {
+   "kind": "feature",
+   "name": "IndexedDB getAllRecords()",
+   "baseline": false
+  },
+  "getboxquads": {
+   "kind": "feature",
+   "name": "getBoxQuads()",
+   "baseline": false
+  },
+  "gethtml": {
+   "kind": "feature",
+   "name": "getHTML()",
+   "baseline": "low",
+   "low": "2024-09-16"
+  },
+  "getorinsert": {
+   "kind": "feature",
+   "name": "Map getOrInsert()",
+   "baseline": "low",
+   "low": "2026-02-14"
+  },
+  "gif": {
+   "kind": "feature",
+   "name": "GIF",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "globalthis": {
+   "kind": "feature",
+   "name": "globalThis",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "glyph-orientation-vertical": {
+   "kind": "feature",
+   "name": "glyph-orientation-vertical",
+   "baseline": false,
+   "alternatives": [
+    "text-orientation"
+   ]
+  },
+  "gpc": {
+   "kind": "feature",
+   "name": "Global privacy control",
+   "baseline": false
+  },
+  "gradient-interpolation": {
+   "kind": "feature",
+   "name": "Gradient interpolation",
+   "baseline": "low",
+   "low": "2024-06-11"
+  },
+  "gradients": {
+   "kind": "feature",
+   "name": "Gradients",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "grid": {
+   "kind": "feature",
+   "name": "Grid",
+   "baseline": "high",
+   "low": "2017-10-17",
+   "high": "2020-04-17"
+  },
+  "grid-animation": {
+   "kind": "feature",
+   "name": "Grid animation",
+   "baseline": "high",
+   "low": "2022-10-27",
+   "high": "2025-04-27"
+  },
+  "grid-lanes": {
+   "kind": "feature",
+   "name": "Grid lanes",
+   "baseline": false
+  },
+  "gyroscope": {
+   "kind": "feature",
+   "name": "Gyroscope",
+   "baseline": false
+  },
+  "hanging-punctuation": {
+   "kind": "feature",
+   "name": "Hanging punctuation",
+   "baseline": false
+  },
+  "hardware-concurrency": {
+   "kind": "feature",
+   "name": "hardwareConcurrency",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "has": {
+   "kind": "feature",
+   "name": ":has()",
+   "baseline": "high",
+   "low": "2023-12-19",
+   "high": "2026-06-19"
+  },
+  "has-slotted": {
+   "kind": "feature",
+   "name": ":has-slotted",
+   "baseline": false
+  },
+  "hashbang-comments": {
+   "kind": "feature",
+   "name": "Hashbang comments",
+   "baseline": "high",
+   "low": "2020-03-24",
+   "high": "2022-09-24"
+  },
+  "hashchange": {
+   "kind": "feature",
+   "name": "hashchange",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "head": {
+   "kind": "feature",
+   "name": "<head>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "header-footer": {
+   "kind": "feature",
+   "name": "<header> and <footer>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "heading-offset": {
+   "kind": "feature",
+   "name": "Heading offset",
+   "baseline": false
+  },
+  "heading-selectors": {
+   "kind": "feature",
+   "name": "Heading pseudo-classes",
+   "baseline": false
+  },
+  "headings": {
+   "kind": "feature",
+   "name": "<h1> through <h6>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "hgroup": {
+   "kind": "feature",
+   "name": "<hgroup>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "hidden-until-found": {
+   "kind": "feature",
+   "name": "hidden=\"until-found\"",
+   "baseline": false
+  },
+  "highlight": {
+   "kind": "feature",
+   "name": "Custom highlights",
+   "baseline": "low",
+   "low": "2026-03-24"
+  },
+  "highlightsfrompoint": {
+   "kind": "feature",
+   "name": "Custom highlights from point",
+   "baseline": false
+  },
+  "history": {
+   "kind": "feature",
+   "name": "History",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "host": {
+   "kind": "feature",
+   "name": "Host",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "host-context": {
+   "kind": "feature",
+   "name": ":host-context()",
+   "baseline": false,
+   "alternatives": [
+    "container-style-queries"
+   ]
+  },
+  "hr": {
+   "kind": "feature",
+   "name": "<hr>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "hsl": {
+   "kind": "feature",
+   "name": "HSL",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "hsts": {
+   "kind": "feature",
+   "name": "HTTP Strict Transport Security",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "html": {
+   "kind": "feature",
+   "name": "<html>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "html-media-capture": {
+   "kind": "feature",
+   "name": "HTML media capture",
+   "baseline": false
+  },
+  "html-processing-instructions": {
+   "kind": "feature",
+   "name": "HTML processing instructions",
+   "baseline": false
+  },
+  "html-setters": {
+   "kind": "feature",
+   "name": "HTML setter methods",
+   "baseline": false
+  },
+  "html-streaming-setters": {
+   "kind": "feature",
+   "name": "HTML streaming setters",
+   "baseline": false
+  },
+  "html-wrapper-methods": {
+   "kind": "feature",
+   "name": "HTML wrapper methods",
+   "baseline": false,
+   "alternatives": [
+    "dom"
+   ]
+  },
+  "http-authentication": {
+   "kind": "feature",
+   "name": "HTTP authentication",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "http11": {
+   "kind": "feature",
+   "name": "HTTP/1.1",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "http2": {
+   "kind": "feature",
+   "name": "HTTP/2",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "http3": {
+   "kind": "feature",
+   "name": "HTTP/3",
+   "baseline": "low",
+   "low": "2024-09-16"
+  },
+  "hwb": {
+   "kind": "feature",
+   "name": "HWB",
+   "baseline": "high",
+   "low": "2022-04-28",
+   "high": "2024-10-28"
+  },
+  "hyphenate-character": {
+   "kind": "feature",
+   "name": "Hyphenate character",
+   "baseline": "high",
+   "low": "2023-09-18",
+   "high": "2026-03-18"
+  },
+  "hyphenate-limit-chars": {
+   "kind": "feature",
+   "name": "Hyphenate limit chars",
+   "baseline": false
+  },
+  "hyphens": {
+   "kind": "feature",
+   "name": "Hyphenation",
+   "baseline": "high",
+   "low": "2023-09-18",
+   "high": "2026-03-18"
+  },
+  "i": {
+   "kind": "feature",
+   "name": "<i>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "ic": {
+   "kind": "feature",
+   "name": "ic unit",
+   "baseline": "high",
+   "low": "2022-10-03",
+   "high": "2025-04-03"
+  },
+  "idle-detection": {
+   "kind": "feature",
+   "name": "Idle detection",
+   "baseline": false
+  },
+  "if": {
+   "kind": "feature",
+   "name": "if()",
+   "baseline": false
+  },
+  "iframe": {
+   "kind": "feature",
+   "name": "<iframe>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "iframe-credentialless": {
+   "kind": "feature",
+   "name": "Credentialless iframes",
+   "baseline": false
+  },
+  "iframe-sandbox": {
+   "kind": "feature",
+   "name": "Sandboxed iframes",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "iframe-srcdoc": {
+   "kind": "feature",
+   "name": "srcdoc",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "image-function": {
+   "kind": "feature",
+   "name": "image()",
+   "baseline": false
+  },
+  "image-maps": {
+   "kind": "feature",
+   "name": "Image maps",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "image-orientation": {
+   "kind": "feature",
+   "name": "image-orientation",
+   "baseline": "high",
+   "low": "2020-04-13",
+   "high": "2022-10-13"
+  },
+  "image-rendering": {
+   "kind": "feature",
+   "name": "image-rendering",
+   "baseline": "high",
+   "low": "2021-10-05",
+   "high": "2024-04-05"
+  },
+  "image-set": {
+   "kind": "feature",
+   "name": "image-set()",
+   "baseline": "high",
+   "low": "2023-09-18",
+   "high": "2026-03-18"
+  },
+  "imagebitmaprenderingcontext": {
+   "kind": "feature",
+   "name": "ImageBitmapRenderingContext",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "ime-mode": {
+   "kind": "feature",
+   "name": "ime-mode",
+   "baseline": false,
+   "alternatives": [
+    "inputmode",
+    "lang-attr"
+   ]
+  },
+  "img": {
+   "kind": "feature",
+   "name": "<img>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "import": {
+   "kind": "feature",
+   "name": "@import",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "import-assertions": {
+   "kind": "feature",
+   "name": "Import assertions",
+   "baseline": false,
+   "alternatives": [
+    "css-modules",
+    "json-modules"
+   ]
+  },
+  "import-defer": {
+   "kind": "feature",
+   "name": "import defer",
+   "baseline": false
+  },
+  "import-maps": {
+   "kind": "feature",
+   "name": "Import maps",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "import-maps-multiple": {
+   "kind": "feature",
+   "name": "Multiple import maps",
+   "baseline": false
+  },
+  "indeterminate": {
+   "kind": "feature",
+   "name": ":indeterminate",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "indexeddb": {
+   "kind": "feature",
+   "name": "IndexedDB",
+   "baseline": "high",
+   "low": "2021-09-20",
+   "high": "2024-03-20"
+  },
+  "individual-transforms": {
+   "kind": "feature",
+   "name": "Individual transform properties",
+   "baseline": "high",
+   "low": "2022-08-05",
+   "high": "2025-02-05"
+  },
+  "inert": {
+   "kind": "feature",
+   "name": "inert",
+   "baseline": "high",
+   "low": "2023-04-11",
+   "high": "2025-10-11"
+  },
+  "inherit-value": {
+   "kind": "feature",
+   "name": "inherit",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "initial-letter": {
+   "kind": "feature",
+   "name": "initial-letter",
+   "baseline": false
+  },
+  "initial-value": {
+   "kind": "feature",
+   "name": "initial",
+   "baseline": "high",
+   "low": "2015-11-12",
+   "high": "2018-05-12"
+  },
+  "ink": {
+   "kind": "feature",
+   "name": "Ink",
+   "baseline": false
+  },
+  "input": {
+   "kind": "feature",
+   "name": "<input>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "input-button": {
+   "kind": "feature",
+   "name": "<input type=\"button\">",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "input-checkbox": {
+   "kind": "feature",
+   "name": "<input type=\"checkbox\">",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "input-color": {
+   "kind": "feature",
+   "name": "<input type=\"color\">",
+   "baseline": false
+  },
+  "input-color-alpha": {
+   "kind": "feature",
+   "name": "alpha and colorspace attributes for <input type=color>",
+   "baseline": false
+  },
+  "input-date-time": {
+   "kind": "feature",
+   "name": "Date and time <input> types",
+   "baseline": "high",
+   "low": "2021-10-05",
+   "high": "2024-04-05"
+  },
+  "input-date-time-month": {
+   "kind": "feature",
+   "name": "<input type=\"month\">",
+   "baseline": false
+  },
+  "input-date-time-week": {
+   "kind": "feature",
+   "name": "<input type=\"week\">",
+   "baseline": false
+  },
+  "input-email-tel-url": {
+   "kind": "feature",
+   "name": "Email, telephone, and URL <input> types",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "input-event": {
+   "kind": "feature",
+   "name": "input (event)",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "input-file": {
+   "kind": "feature",
+   "name": "<input type=\"file\">",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "input-file-multiple": {
+   "kind": "feature",
+   "name": "<input type=\"file\" multiple>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "input-file-webkitdirectory": {
+   "kind": "feature",
+   "name": "<input type=\"file\" webkitdirectory>",
+   "baseline": "low",
+   "low": "2025-08-19"
+  },
+  "input-hidden": {
+   "kind": "feature",
+   "name": "<input type=\"hidden\">",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "input-image": {
+   "kind": "feature",
+   "name": "<input type=\"image\">",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "input-number": {
+   "kind": "feature",
+   "name": "<input type=\"number\">",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "input-password": {
+   "kind": "feature",
+   "name": "<input type=\"password\">",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "input-radio": {
+   "kind": "feature",
+   "name": "<input type=\"radio\">",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "input-range": {
+   "kind": "feature",
+   "name": "<input type=\"range\">",
+   "baseline": "high",
+   "low": "2017-03-16",
+   "high": "2019-09-16"
+  },
+  "input-reset": {
+   "kind": "feature",
+   "name": "<input type=\"reset\">",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "input-selectors": {
+   "kind": "feature",
+   "name": "Input selectors",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "input-submit": {
+   "kind": "feature",
+   "name": "<input type=\"submit\">",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "inputmode": {
+   "kind": "feature",
+   "name": "inputmode",
+   "baseline": "high",
+   "low": "2021-12-07",
+   "high": "2024-06-07"
+  },
+  "ins": {
+   "kind": "feature",
+   "name": "<ins>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "insertable-streams": {
+   "kind": "feature",
+   "name": "Insertable streams for MediaStreamTrack",
+   "baseline": false
+  },
+  "install": {
+   "kind": "feature",
+   "name": "<install>",
+   "baseline": false
+  },
+  "interaction": {
+   "kind": "feature",
+   "name": "Interaction media queries",
+   "baseline": "high",
+   "low": "2018-12-11",
+   "high": "2021-06-11"
+  },
+  "interaction-contentful-paint": {
+   "kind": "feature",
+   "name": "Interaction contentful paint performance entries",
+   "baseline": false
+  },
+  "interactivity": {
+   "kind": "feature",
+   "name": "interactivity",
+   "baseline": false
+  },
+  "interest-invokers": {
+   "kind": "feature",
+   "name": "Interest invokers",
+   "baseline": false
+  },
+  "interpolate-size": {
+   "kind": "feature",
+   "name": "interpolate-size",
+   "baseline": false
+  },
+  "intersection-observer": {
+   "kind": "feature",
+   "name": "Intersection observer",
+   "baseline": "high",
+   "low": "2019-03-25",
+   "high": "2021-09-25"
+  },
+  "intersection-observer-v2": {
+   "kind": "feature",
+   "name": "Intersection observer visibility tracking",
+   "baseline": false
+  },
+  "intl": {
+   "kind": "feature",
+   "name": "Intl",
+   "baseline": "high",
+   "low": "2017-09-28",
+   "high": "2020-03-28"
+  },
+  "intl-display-names": {
+   "kind": "feature",
+   "name": "Intl.DisplayNames",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "intl-duration-format": {
+   "kind": "feature",
+   "name": "Intl.DurationFormat",
+   "baseline": "low",
+   "low": "2025-03-04"
+  },
+  "intl-list-format": {
+   "kind": "feature",
+   "name": "Intl.ListFormat",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "intl-locale": {
+   "kind": "feature",
+   "name": "Intl.Locale",
+   "baseline": "high",
+   "low": "2020-09-16",
+   "high": "2023-03-16"
+  },
+  "intl-locale-info": {
+   "kind": "feature",
+   "name": "Intl.Locale info",
+   "baseline": "low",
+   "low": "2026-07-21"
+  },
+  "intl-plural-rules": {
+   "kind": "feature",
+   "name": "Intl.PluralRules",
+   "baseline": "high",
+   "low": "2019-09-19",
+   "high": "2022-03-19"
+  },
+  "intl-relative-time-format": {
+   "kind": "feature",
+   "name": "Intl.RelativeTimeFormat",
+   "baseline": "high",
+   "low": "2020-09-16",
+   "high": "2023-03-16"
+  },
+  "intl-segmenter": {
+   "kind": "feature",
+   "name": "Intl.Segmenter",
+   "baseline": "high",
+   "low": "2024-04-16",
+   "high": "2026-10-16"
+  },
+  "inverted-colors": {
+   "kind": "feature",
+   "name": "inverted-colors media query",
+   "baseline": false
+  },
+  "invoker-commands": {
+   "kind": "feature",
+   "name": "Invoker commands",
+   "baseline": "low",
+   "low": "2025-12-12"
+  },
+  "is": {
+   "kind": "feature",
+   "name": ":is()",
+   "baseline": "high",
+   "low": "2021-01-21",
+   "high": "2023-07-21"
+  },
+  "is-error": {
+   "kind": "feature",
+   "name": "Error.isError()",
+   "baseline": false
+  },
+  "is-input-pending": {
+   "kind": "feature",
+   "name": "isInputPending()",
+   "baseline": false,
+   "alternatives": [
+    "scheduler"
+   ]
+  },
+  "is-secure-context": {
+   "kind": "feature",
+   "name": "isSecureContext",
+   "baseline": "high",
+   "low": "2018-04-12",
+   "high": "2020-10-12"
+  },
+  "isolation": {
+   "kind": "feature",
+   "name": "isolation",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "iterator-concat": {
+   "kind": "feature",
+   "name": "Iterator.concat()",
+   "baseline": "low",
+   "low": "2026-03-24"
+  },
+  "iterator-includes": {
+   "kind": "feature",
+   "name": "Iterator includes()",
+   "baseline": false
+  },
+  "iterator-join": {
+   "kind": "feature",
+   "name": "Iterator join()",
+   "baseline": false
+  },
+  "iterator-methods": {
+   "kind": "feature",
+   "name": "Iterator methods",
+   "baseline": "low",
+   "low": "2025-03-31"
+  },
+  "iterator-zip-zipkeyed": {
+   "kind": "feature",
+   "name": "Iterator.zip() and Iterator.zipKeyed()",
+   "baseline": false
+  },
+  "iterators": {
+   "kind": "feature",
+   "name": "Iterators and the for...of loop",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "javascript": {
+   "kind": "feature",
+   "name": "JavaScript (initial core language support)",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "jpeg": {
+   "kind": "feature",
+   "name": "JPEG",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "jpegxl": {
+   "kind": "feature",
+   "name": "JPEG XL",
+   "baseline": false
+  },
+  "js-modules": {
+   "kind": "feature",
+   "name": "JavaScript modules",
+   "baseline": "high",
+   "low": "2018-05-09",
+   "high": "2020-11-09"
+  },
+  "js-modules-service-workers": {
+   "kind": "feature",
+   "name": "JavaScript modules in service workers",
+   "baseline": "low",
+   "low": "2026-01-13"
+  },
+  "js-modules-shared-workers": {
+   "kind": "feature",
+   "name": "JavaScript modules in shared workers",
+   "baseline": "low",
+   "low": "2026-05-05"
+  },
+  "js-modules-workers": {
+   "kind": "feature",
+   "name": "JavaScript modules in workers",
+   "baseline": "high",
+   "low": "2023-06-06",
+   "high": "2025-12-06"
+  },
+  "json": {
+   "kind": "feature",
+   "name": "JSON",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "json-modules": {
+   "kind": "feature",
+   "name": "JSON import attributes",
+   "baseline": "low",
+   "low": "2025-04-29"
+  },
+  "json-raw": {
+   "kind": "feature",
+   "name": "JSON source text access",
+   "baseline": "low",
+   "low": "2025-03-31"
+  },
+  "justify-self-block": {
+   "kind": "feature",
+   "name": "justify-self in block layouts",
+   "baseline": false
+  },
+  "kbd": {
+   "kind": "feature",
+   "name": "<kbd>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "keyboard-events": {
+   "kind": "feature",
+   "name": "Keyboard events",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "keyboard-lock": {
+   "kind": "feature",
+   "name": "Keyboard lock",
+   "baseline": false
+  },
+  "keyboard-map": {
+   "kind": "feature",
+   "name": "Keyboard map",
+   "baseline": false
+  },
+  "khr-parallel-shader-compile": {
+   "kind": "feature",
+   "name": "KHR_parallel_shader_compile WebGL extension",
+   "baseline": false
+  },
+  "lab": {
+   "kind": "feature",
+   "name": "Lab and LCH",
+   "baseline": "high",
+   "low": "2023-05-09",
+   "high": "2025-11-09"
+  },
+  "label": {
+   "kind": "feature",
+   "name": "<label>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "lang": {
+   "kind": "feature",
+   "name": ":lang()",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "lang-attr": {
+   "kind": "feature",
+   "name": "lang",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "language": {
+   "kind": "feature",
+   "name": "Language",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "languagedetector": {
+   "kind": "feature",
+   "name": "Language detector",
+   "baseline": false
+  },
+  "languagemodel": {
+   "kind": "feature",
+   "name": "LanguageModel",
+   "baseline": false
+  },
+  "largest-contentful-paint": {
+   "kind": "feature",
+   "name": "Largest contentful paint (LCP) performance entries",
+   "baseline": "low",
+   "low": "2025-12-12"
+  },
+  "layout-direction-override": {
+   "kind": "feature",
+   "name": "Layout direction override",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "layout-instability": {
+   "kind": "feature",
+   "name": "Layout instability performance entries",
+   "baseline": false
+  },
+  "let-const": {
+   "kind": "feature",
+   "name": "Let and const",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "letter-spacing": {
+   "kind": "feature",
+   "name": "letter-spacing",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "lh": {
+   "kind": "feature",
+   "name": "lh unit",
+   "baseline": "high",
+   "low": "2023-11-21",
+   "high": "2026-05-21"
+  },
+  "light-dark": {
+   "kind": "feature",
+   "name": "light-dark()",
+   "baseline": "low",
+   "low": "2024-05-13"
+  },
+  "light-dark-image": {
+   "kind": "feature",
+   "name": "light-dark() image values",
+   "baseline": "low",
+   "low": "2026-09-14"
+  },
+  "line-break": {
+   "kind": "feature",
+   "name": "line-break",
+   "baseline": "high",
+   "low": "2020-07-28",
+   "high": "2023-01-28"
+  },
+  "line-clamp": {
+   "kind": "feature",
+   "name": "line-clamp",
+   "baseline": false
+  },
+  "line-height": {
+   "kind": "feature",
+   "name": "line-height",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "linear-easing": {
+   "kind": "feature",
+   "name": "linear() easing",
+   "baseline": "high",
+   "low": "2023-12-11",
+   "high": "2026-06-11"
+  },
+  "link": {
+   "kind": "feature",
+   "name": "<link>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "link-parameters": {
+   "kind": "feature",
+   "name": "Link parameters",
+   "baseline": false
+  },
+  "link-rel-dns-prefetch": {
+   "kind": "feature",
+   "name": "<link rel=\"dns-prefetch\">",
+   "baseline": "low",
+   "low": "2025-09-15"
+  },
+  "link-rel-expect": {
+   "kind": "feature",
+   "name": "<link rel=\"expect\">",
+   "baseline": false
+  },
+  "link-rel-preconnect": {
+   "kind": "feature",
+   "name": "<link rel=\"preconnect\">",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "link-rel-prefetch": {
+   "kind": "feature",
+   "name": "<link rel=\"prefetch\">",
+   "baseline": false
+  },
+  "link-rel-preload": {
+   "kind": "feature",
+   "name": "<link rel=\"preload\">",
+   "baseline": "high",
+   "low": "2021-01-26",
+   "high": "2023-07-26"
+  },
+  "link-selectors": {
+   "kind": "feature",
+   "name": "Link selectors",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "link-to": {
+   "kind": "feature",
+   "name": ":link-to()",
+   "baseline": false
+  },
+  "list-elements": {
+   "kind": "feature",
+   "name": "<ol>, <ul>, and <li>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "list-style": {
+   "kind": "feature",
+   "name": "List style",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "loading-lazy": {
+   "kind": "feature",
+   "name": "Lazy-loading images and iframes",
+   "baseline": "high",
+   "low": "2023-12-19",
+   "high": "2026-06-19"
+  },
+  "loading-lazy-media": {
+   "kind": "feature",
+   "name": "Lazy-loading media",
+   "baseline": false
+  },
+  "local-fonts": {
+   "kind": "feature",
+   "name": "Local fonts",
+   "baseline": false
+  },
+  "local-network-access": {
+   "kind": "feature",
+   "name": "Local network access",
+   "baseline": false
+  },
+  "localstorage": {
+   "kind": "feature",
+   "name": "localStorage and sessionStorage",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "location": {
+   "kind": "feature",
+   "name": "Location",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "logical-assignments": {
+   "kind": "feature",
+   "name": "Logical assignments",
+   "baseline": "high",
+   "low": "2020-09-16",
+   "high": "2023-03-16"
+  },
+  "logical-properties": {
+   "kind": "feature",
+   "name": "Logical properties",
+   "baseline": "high",
+   "low": "2021-09-20",
+   "high": "2024-03-20"
+  },
+  "long-animation-frames": {
+   "kind": "feature",
+   "name": "Long animation frames performance entries",
+   "baseline": false
+  },
+  "longtasks": {
+   "kind": "feature",
+   "name": "Long task performance entries",
+   "baseline": false
+  },
+  "magnetometer": {
+   "kind": "feature",
+   "name": "Magnetometer",
+   "baseline": false
+  },
+  "main": {
+   "kind": "feature",
+   "name": "<main>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "managed-media-source": {
+   "kind": "feature",
+   "name": "Managed media source",
+   "baseline": false
+  },
+  "manifest": {
+   "kind": "feature",
+   "name": "Web app manifest",
+   "baseline": false
+  },
+  "manifest-localization": {
+   "kind": "feature",
+   "name": "Web app manifest localization",
+   "baseline": false
+  },
+  "map": {
+   "kind": "feature",
+   "name": "Map (initial support)",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "margin": {
+   "kind": "feature",
+   "name": "margin",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "margin-trim": {
+   "kind": "feature",
+   "name": "margin-trim",
+   "baseline": false
+  },
+  "mark": {
+   "kind": "feature",
+   "name": "<mark>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "marker": {
+   "kind": "feature",
+   "name": "::marker",
+   "baseline": false
+  },
+  "mask-border": {
+   "kind": "feature",
+   "name": "mask-border",
+   "baseline": false
+  },
+  "mask-type": {
+   "kind": "feature",
+   "name": "mask-type",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "masks": {
+   "kind": "feature",
+   "name": "Masks",
+   "baseline": "high",
+   "low": "2023-12-07",
+   "high": "2026-06-07"
+  },
+  "masonry": {
+   "kind": "moved",
+   "redirects": [
+    "grid-lanes"
+   ]
+  },
+  "matchmedia": {
+   "kind": "feature",
+   "name": "matchMedia",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "math-sum-precise": {
+   "kind": "feature",
+   "name": "Math.sumPrecise()",
+   "baseline": "low",
+   "low": "2026-04-10"
+  },
+  "mathml": {
+   "kind": "feature",
+   "name": "MathML",
+   "baseline": "high",
+   "low": "2023-01-12",
+   "high": "2025-07-12"
+  },
+  "mathml-full": {
+   "kind": "feature",
+   "name": "MathML Full",
+   "baseline": false,
+   "alternatives": [
+    "mathml"
+   ]
+  },
+  "measure-memory": {
+   "kind": "feature",
+   "name": "Memory measurement",
+   "baseline": false
+  },
+  "media-capabilities": {
+   "kind": "feature",
+   "name": "Media capabilities",
+   "baseline": "high",
+   "low": "2022-04-28",
+   "high": "2024-10-28"
+  },
+  "media-capture": {
+   "kind": "feature",
+   "name": "Media capture",
+   "baseline": "high",
+   "low": "2017-09-19",
+   "high": "2020-03-19"
+  },
+  "media-playback-quality": {
+   "kind": "feature",
+   "name": "Media playback quality",
+   "baseline": "high",
+   "low": "2020-02-04",
+   "high": "2022-08-04"
+  },
+  "media-pseudos": {
+   "kind": "feature",
+   "name": "Media element pseudo-classes",
+   "baseline": false
+  },
+  "media-queries": {
+   "kind": "feature",
+   "name": "Media queries",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "media-query-range-syntax": {
+   "kind": "feature",
+   "name": "Media query range syntax",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "media-session": {
+   "kind": "feature",
+   "name": "Media session",
+   "baseline": false
+  },
+  "media-source": {
+   "kind": "feature",
+   "name": "Media source",
+   "baseline": false
+  },
+  "mediacontroller": {
+   "kind": "feature",
+   "name": "MediaController",
+   "baseline": false
+  },
+  "mediastream-recording": {
+   "kind": "feature",
+   "name": "MediaStream recording",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "menu": {
+   "kind": "feature",
+   "name": "<menu>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "messageerror": {
+   "kind": "feature",
+   "name": "messageerror",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "meta": {
+   "kind": "feature",
+   "name": "<meta>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "meta-application-title": {
+   "kind": "feature",
+   "name": "<meta name=\"application-title\">",
+   "baseline": false
+  },
+  "meta-refresh": {
+   "kind": "feature",
+   "name": "Meta refresh",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "meta-text-scale": {
+   "kind": "feature",
+   "name": "<meta name=\"text-scale\">",
+   "baseline": false
+  },
+  "meta-theme-color": {
+   "kind": "feature",
+   "name": "<meta name=\"theme-color\">",
+   "baseline": false
+  },
+  "meter": {
+   "kind": "feature",
+   "name": "<meter>",
+   "baseline": "high",
+   "low": "2018-10-02",
+   "high": "2021-04-02"
+  },
+  "min-max-clamp": {
+   "kind": "feature",
+   "name": "min(), max(), and clamp()",
+   "baseline": "high",
+   "low": "2020-07-28",
+   "high": "2023-01-28"
+  },
+  "min-max-content": {
+   "kind": "feature",
+   "name": "min-content and max-content",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "min-max-width-height": {
+   "kind": "feature",
+   "name": "Min and max width and height",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "mix-blend-mode": {
+   "kind": "feature",
+   "name": "mix-blend-mode",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "mixed-content": {
+   "kind": "feature",
+   "name": "Mixed content handling",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "mixin": {
+   "kind": "feature",
+   "name": "@mixin",
+   "baseline": false
+  },
+  "modal": {
+   "kind": "feature",
+   "name": ":modal",
+   "baseline": "high",
+   "low": "2022-09-02",
+   "high": "2025-03-02"
+  },
+  "modulepreload": {
+   "kind": "feature",
+   "name": "<link rel=\"modulepreload\">",
+   "baseline": "high",
+   "low": "2023-09-18",
+   "high": "2026-03-18"
+  },
+  "motion-path": {
+   "kind": "feature",
+   "name": "Motion path",
+   "baseline": "high",
+   "low": "2022-09-12",
+   "high": "2025-03-12"
+  },
+  "mouse-events": {
+   "kind": "feature",
+   "name": "Mouse events",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "move-before": {
+   "kind": "feature",
+   "name": "moveBefore()",
+   "baseline": false
+  },
+  "multi-column": {
+   "kind": "feature",
+   "name": "Multi-column layout",
+   "baseline": "high",
+   "low": "2017-03-07",
+   "high": "2019-09-07"
+  },
+  "mutation-events": {
+   "kind": "feature",
+   "name": "Mutation events",
+   "baseline": false,
+   "alternatives": [
+    "mutationobserver"
+   ]
+  },
+  "mutationobserver": {
+   "kind": "feature",
+   "name": "MutationObserver",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "named-color": {
+   "kind": "feature",
+   "name": "Named colors",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "namespace": {
+   "kind": "feature",
+   "name": "@namespace",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "nav": {
+   "kind": "feature",
+   "name": "<nav>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "navigation": {
+   "kind": "feature",
+   "name": "Navigation API",
+   "baseline": "low",
+   "low": "2026-01-13"
+  },
+  "navigation-precommit-handlers": {
+   "kind": "feature",
+   "name": "Navigation precommit handlers",
+   "baseline": false
+  },
+  "navigation-source": {
+   "kind": "feature",
+   "name": ":navigation-source",
+   "baseline": false
+  },
+  "navigation-timing": {
+   "kind": "feature",
+   "name": "Navigation timing performance entries",
+   "baseline": "high",
+   "low": "2021-10-25",
+   "high": "2024-04-25"
+  },
+  "navigation-timing-confidence": {
+   "kind": "feature",
+   "name": "Navigation timing confidence",
+   "baseline": false
+  },
+  "navigator": {
+   "kind": "feature",
+   "name": "Navigator",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "navigator-install": {
+   "kind": "feature",
+   "name": "navigator.install()",
+   "baseline": false
+  },
+  "navigator-modelcontext": {
+   "kind": "moved",
+   "redirects": [
+    "document-modelcontext"
+   ]
+  },
+  "nesting": {
+   "kind": "feature",
+   "name": "Nesting",
+   "baseline": "high",
+   "low": "2023-12-11",
+   "high": "2026-06-11"
+  },
+  "network-information": {
+   "kind": "feature",
+   "name": "Network Information",
+   "baseline": false
+  },
+  "non-cookie-storage-access": {
+   "kind": "feature",
+   "name": "Non-cookie storage access",
+   "baseline": false
+  },
+  "not": {
+   "kind": "feature",
+   "name": ":not()",
+   "baseline": "high",
+   "low": "2021-01-21",
+   "high": "2023-07-21"
+  },
+  "notifications": {
+   "kind": "feature",
+   "name": "Notifications",
+   "baseline": false
+  },
+  "notifications-apps": {
+   "kind": "feature",
+   "name": "Notifications from service workers and installed apps",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "nth-child": {
+   "kind": "feature",
+   "name": ":nth-child()",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "nth-child-of": {
+   "kind": "feature",
+   "name": ":nth-child() of <selector>",
+   "baseline": "high",
+   "low": "2023-05-09",
+   "high": "2025-11-09"
+  },
+  "nth-of-type": {
+   "kind": "feature",
+   "name": ":nth-of-type() pseudo-classes",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "nullish-coalescing": {
+   "kind": "feature",
+   "name": "Nullish coalescing",
+   "baseline": "high",
+   "low": "2020-09-16",
+   "high": "2023-03-16"
+  },
+  "number": {
+   "kind": "feature",
+   "name": "Math and numbers",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "numeric-factory-functions": {
+   "kind": "feature",
+   "name": "Numeric factory functions",
+   "baseline": false
+  },
+  "numeric-separators": {
+   "kind": "feature",
+   "name": "Numeric separators",
+   "baseline": "high",
+   "low": "2020-07-28",
+   "high": "2023-01-28"
+  },
+  "numeric-seperators": {
+   "kind": "moved",
+   "redirects": [
+    "numeric-separators"
+   ]
+  },
+  "object": {
+   "kind": "feature",
+   "name": "<object>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "object-fit": {
+   "kind": "feature",
+   "name": "object-fit",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "object-hasown": {
+   "kind": "feature",
+   "name": "Object.hasOwn()",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "object-object": {
+   "kind": "feature",
+   "name": "Object",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "object-position": {
+   "kind": "feature",
+   "name": "object-position",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "object-view-box": {
+   "kind": "feature",
+   "name": "object-view-box",
+   "baseline": false
+  },
+  "observable": {
+   "kind": "feature",
+   "name": "Observable",
+   "baseline": false
+  },
+  "oes-element-index-uint": {
+   "kind": "feature",
+   "name": "OES_element_index_uint WebGL extension",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "oes-fbo-render-mipmap": {
+   "kind": "feature",
+   "name": "OES_fbo_render_mipmap WebGL extension",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "oes-standard-derivatives": {
+   "kind": "feature",
+   "name": "OES_standard_derivatives WebGL extension",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "oes-texture-float": {
+   "kind": "feature",
+   "name": "OES_texture_float WebGL extension",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "oes-texture-float-linear": {
+   "kind": "feature",
+   "name": "OES_texture_float_linear WebGL extension",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "oes-texture-half-float": {
+   "kind": "feature",
+   "name": "OES_texture_half_float WebGL extension",
+   "baseline": "high",
+   "low": "2016-08-02",
+   "high": "2019-02-02"
+  },
+  "oes-texture-half-float-linear": {
+   "kind": "feature",
+   "name": "OES_texture_half_float_linear WebGL extension",
+   "baseline": "high",
+   "low": "2016-08-02",
+   "high": "2019-02-02"
+  },
+  "oes-vertex-array-object": {
+   "kind": "feature",
+   "name": "OES_vertex_array_object WebGL extension",
+   "baseline": "high",
+   "low": "2018-04-30",
+   "high": "2020-10-30"
+  },
+  "offline-audio-context": {
+   "kind": "feature",
+   "name": "OfflineAudioContext",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "offline-audio-context-incremental-rendering": {
+   "kind": "feature",
+   "name": "OfflineAudioContext incremental rendering",
+   "baseline": false
+  },
+  "offscreen-canvas": {
+   "kind": "feature",
+   "name": "Offscreen canvas",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "oklab": {
+   "kind": "feature",
+   "name": "Oklab and OkLCh",
+   "baseline": "high",
+   "low": "2023-05-09",
+   "high": "2025-11-09"
+  },
+  "online": {
+   "kind": "feature",
+   "name": "Online status",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "opacity": {
+   "kind": "feature",
+   "name": "opacity",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "opacity-svg": {
+   "kind": "feature",
+   "name": "Opacity (SVG)",
+   "baseline": "high",
+   "low": "≤2020-03-24",
+   "high": "≤2022-09-24"
+  },
+  "opaquerange": {
+   "kind": "feature",
+   "name": "OpaqueRange",
+   "baseline": false
+  },
+  "open-closed": {
+   "kind": "moved",
+   "redirects": [
+    "open-pseudo"
+   ]
+  },
+  "open-pseudo": {
+   "kind": "feature",
+   "name": ":open",
+   "baseline": "low",
+   "low": "2026-05-11"
+  },
+  "optional-catch-binding": {
+   "kind": "feature",
+   "name": "Optional catch binding",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "orientation-sensor": {
+   "kind": "feature",
+   "name": "Orientation Sensor",
+   "baseline": false
+  },
+  "origin": {
+   "kind": "feature",
+   "name": "Origin",
+   "baseline": false
+  },
+  "origin-private-file-system": {
+   "kind": "feature",
+   "name": "Origin private file system",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "outline": {
+   "kind": "feature",
+   "name": "outline",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "outlines": {
+   "kind": "feature",
+   "name": "Outlines",
+   "baseline": "high",
+   "low": "2017-04-05",
+   "high": "2019-10-05"
+  },
+  "output": {
+   "kind": "feature",
+   "name": "<output>",
+   "baseline": "high",
+   "low": "≤2018-10-02",
+   "high": "≤2021-04-02"
+  },
+  "overflow": {
+   "kind": "feature",
+   "name": "Overflow media queries",
+   "baseline": "high",
+   "low": "2023-09-18",
+   "high": "2026-03-18"
+  },
+  "overflow-anchor": {
+   "kind": "feature",
+   "name": "overflow-anchor",
+   "baseline": "low",
+   "low": "2026-09-14"
+  },
+  "overflow-clip": {
+   "kind": "feature",
+   "name": "overflow: clip",
+   "baseline": "high",
+   "low": "2022-09-12",
+   "high": "2025-03-12"
+  },
+  "overflow-clip-margin": {
+   "kind": "feature",
+   "name": "overflow-clip-margin",
+   "baseline": false
+  },
+  "overflow-overlay": {
+   "kind": "feature",
+   "name": "overflow: overlay",
+   "baseline": false,
+   "alternatives": [
+    "overflow-shorthand"
+   ]
+  },
+  "overflow-shorthand": {
+   "kind": "feature",
+   "name": "overflow",
+   "baseline": "high",
+   "low": "2020-03-24",
+   "high": "2022-09-24"
+  },
+  "overflow-wrap": {
+   "kind": "feature",
+   "name": "overflow-wrap",
+   "baseline": "high",
+   "low": "2018-10-02",
+   "high": "2021-04-02"
+  },
+  "overlay": {
+   "kind": "feature",
+   "name": "overlay",
+   "baseline": false
+  },
+  "overscroll-behavior": {
+   "kind": "feature",
+   "name": "overscroll-behavior",
+   "baseline": false
+  },
+  "ovr-multiview2": {
+   "kind": "feature",
+   "name": "OVR_multiview2 WebGL extension",
+   "baseline": false
+  },
+  "p": {
+   "kind": "feature",
+   "name": "<p>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "padding": {
+   "kind": "feature",
+   "name": "padding",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "page-break-aliases": {
+   "kind": "feature",
+   "name": "Page break aliases",
+   "baseline": false,
+   "alternatives": [
+    "page-breaks"
+   ]
+  },
+  "page-breaks": {
+   "kind": "feature",
+   "name": "Page breaks",
+   "baseline": "high",
+   "low": "2019-01-29",
+   "high": "2021-07-29"
+  },
+  "page-lifecycle": {
+   "kind": "feature",
+   "name": "Page lifecycle",
+   "baseline": false
+  },
+  "page-orientation": {
+   "kind": "feature",
+   "name": "page-orientation",
+   "baseline": false
+  },
+  "page-selectors": {
+   "kind": "feature",
+   "name": "Page selectors",
+   "baseline": false
+  },
+  "page-setup": {
+   "kind": "feature",
+   "name": "Page setup",
+   "baseline": "low",
+   "low": "2024-12-11"
+  },
+  "page-transition-events": {
+   "kind": "feature",
+   "name": "Page transition events",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "page-visibility": {
+   "kind": "feature",
+   "name": "Page visibility",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "page-visibility-state": {
+   "kind": "feature",
+   "name": "Page visibility state performance entries",
+   "baseline": false
+  },
+  "paint": {
+   "kind": "feature",
+   "name": "paint()",
+   "baseline": false
+  },
+  "paint-order": {
+   "kind": "feature",
+   "name": "paint-order",
+   "baseline": "high",
+   "low": "2024-03-22",
+   "high": "2026-09-22"
+  },
+  "paint-timing": {
+   "kind": "feature",
+   "name": "Paint timing performance entries",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "parse-html-unsafe": {
+   "kind": "feature",
+   "name": "Unsanitized HTML parsing",
+   "baseline": "low",
+   "low": "2025-09-15"
+  },
+  "partitioned-cookies": {
+   "kind": "feature",
+   "name": "Partitioned cookies",
+   "baseline": false
+  },
+  "password-credentials": {
+   "kind": "feature",
+   "name": "Password credentials",
+   "baseline": false
+  },
+  "path-shape": {
+   "kind": "feature",
+   "name": "path()",
+   "baseline": false
+  },
+  "payment-handler": {
+   "kind": "feature",
+   "name": "Payment handler",
+   "baseline": false
+  },
+  "payment-request": {
+   "kind": "feature",
+   "name": "Payment request",
+   "baseline": false
+  },
+  "pdf-viewer": {
+   "kind": "feature",
+   "name": "pdfViewerEnabled",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "performance": {
+   "kind": "feature",
+   "name": "Performance",
+   "baseline": "high",
+   "low": "2015-09-16",
+   "high": "2018-03-16"
+  },
+  "performancetiming": {
+   "kind": "feature",
+   "name": "PerformanceTiming and PerformanceNavigation",
+   "baseline": false,
+   "alternatives": [
+    "performance",
+    "navigation-timing"
+   ]
+  },
+  "periodic-background-sync": {
+   "kind": "feature",
+   "name": "Periodic background sync",
+   "baseline": false
+  },
+  "permissions": {
+   "kind": "feature",
+   "name": "Permissions",
+   "baseline": "high",
+   "low": "2022-09-12",
+   "high": "2025-03-12"
+  },
+  "permissions-policy": {
+   "kind": "feature",
+   "name": "Permissions policy",
+   "baseline": false
+  },
+  "physical-properties": {
+   "kind": "feature",
+   "name": "Physical properties",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "picture": {
+   "kind": "feature",
+   "name": "<picture>",
+   "baseline": "high",
+   "low": "2016-03-21",
+   "high": "2018-09-21"
+  },
+  "picture-in-picture": {
+   "kind": "feature",
+   "name": "Picture-in-picture (video)",
+   "baseline": false
+  },
+  "ping": {
+   "kind": "feature",
+   "name": "ping",
+   "baseline": false
+  },
+  "placeholder": {
+   "kind": "feature",
+   "name": "::placeholder",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "placeholder-shown": {
+   "kind": "feature",
+   "name": ":placeholder-shown",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "png": {
+   "kind": "feature",
+   "name": "PNG",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "pointer-events": {
+   "kind": "feature",
+   "name": "pointer-events",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "pointer-events-api": {
+   "kind": "feature",
+   "name": "Pointer Events",
+   "baseline": "high",
+   "low": "2020-07-28",
+   "high": "2023-01-28"
+  },
+  "pointer-lock": {
+   "kind": "feature",
+   "name": "Pointer lock",
+   "baseline": false
+  },
+  "popover": {
+   "kind": "feature",
+   "name": "Popover",
+   "baseline": "low",
+   "low": "2025-01-27"
+  },
+  "popover-hint": {
+   "kind": "feature",
+   "name": "popover=\"hint\"",
+   "baseline": false
+  },
+  "portal": {
+   "kind": "feature",
+   "name": "Portals",
+   "baseline": false,
+   "alternatives": [
+    "fencedframe",
+    "link-rel-prefetch",
+    "speculation-rules",
+    "view-transitions"
+   ]
+  },
+  "position": {
+   "kind": "feature",
+   "name": "Position",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "postmessage": {
+   "kind": "feature",
+   "name": "postMessage",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "pre": {
+   "kind": "feature",
+   "name": "<pre>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "prefers-color-scheme": {
+   "kind": "feature",
+   "name": "prefers-color-scheme media query",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "prefers-contrast": {
+   "kind": "feature",
+   "name": "prefers-contrast media query",
+   "baseline": "high",
+   "low": "2022-05-31",
+   "high": "2024-11-30"
+  },
+  "prefers-reduced-data": {
+   "kind": "feature",
+   "name": "prefers-reduced-data media query",
+   "baseline": false
+  },
+  "prefers-reduced-motion": {
+   "kind": "feature",
+   "name": "prefers-reduced-motion media query",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "prefers-reduced-transparency": {
+   "kind": "feature",
+   "name": "prefers-reduced-transparency media query",
+   "baseline": false
+  },
+  "preloading-responsive-images": {
+   "kind": "feature",
+   "name": "Preloading responsive images",
+   "baseline": "high",
+   "low": "2023-12-11",
+   "high": "2026-06-11"
+  },
+  "presentation-api": {
+   "kind": "feature",
+   "name": "Presentation API",
+   "baseline": false
+  },
+  "preserves-pitch": {
+   "kind": "feature",
+   "name": "preservesPitch",
+   "baseline": "high",
+   "low": "2023-12-11",
+   "high": "2026-06-11"
+  },
+  "print": {
+   "kind": "feature",
+   "name": "window.print()",
+   "baseline": "high",
+   "low": "2023-06-06",
+   "high": "2025-12-06"
+  },
+  "print-color-adjust": {
+   "kind": "feature",
+   "name": "print-color-adjust",
+   "baseline": "low",
+   "low": "2025-05-01"
+  },
+  "print-events": {
+   "kind": "feature",
+   "name": "Print events",
+   "baseline": "high",
+   "low": "2019-09-19",
+   "high": "2022-03-19"
+  },
+  "private-click-measurement": {
+   "kind": "feature",
+   "name": "Private click measurement",
+   "baseline": false
+  },
+  "private-network-access": {
+   "kind": "feature",
+   "name": "Private network access",
+   "baseline": false,
+   "alternatives": [
+    "local-network-access"
+   ]
+  },
+  "profiler": {
+   "kind": "feature",
+   "name": "Profiler",
+   "baseline": false
+  },
+  "progress": {
+   "kind": "feature",
+   "name": "<progress>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "progress-function": {
+   "kind": "feature",
+   "name": "progress()",
+   "baseline": "low",
+   "low": "2026-09-01"
+  },
+  "promise": {
+   "kind": "feature",
+   "name": "Promise (initial support)",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "promise-allsettled": {
+   "kind": "feature",
+   "name": "Promise.allSettled()",
+   "baseline": "high",
+   "low": "2020-07-28",
+   "high": "2023-01-28"
+  },
+  "promise-any": {
+   "kind": "feature",
+   "name": "Promise.any()",
+   "baseline": "high",
+   "low": "2020-09-16",
+   "high": "2023-03-16"
+  },
+  "promise-finally": {
+   "kind": "feature",
+   "name": "Promise finally()",
+   "baseline": "high",
+   "low": "2018-10-02",
+   "high": "2021-04-02"
+  },
+  "promise-try": {
+   "kind": "feature",
+   "name": "Promise.try()",
+   "baseline": "low",
+   "low": "2025-01-07"
+  },
+  "promise-withresolvers": {
+   "kind": "feature",
+   "name": "Promise.withResolvers()",
+   "baseline": "high",
+   "low": "2024-03-05",
+   "high": "2026-09-05"
+  },
+  "protected-audience": {
+   "kind": "feature",
+   "name": "Protected audience",
+   "baseline": false
+  },
+  "proto": {
+   "kind": "feature",
+   "name": "__proto__",
+   "baseline": false
+  },
+  "proxy-reflect": {
+   "kind": "feature",
+   "name": "Proxy and Reflect",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "push": {
+   "kind": "feature",
+   "name": "Push messages",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "q": {
+   "kind": "feature",
+   "name": "<q>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "q-unit": {
+   "kind": "feature",
+   "name": "Q unit",
+   "baseline": "high",
+   "low": "2020-03-24",
+   "high": "2022-09-24"
+  },
+  "queuemicrotask": {
+   "kind": "feature",
+   "name": "queueMicrotask()",
+   "baseline": "high",
+   "low": "2020-07-28",
+   "high": "2023-01-28"
+  },
+  "quotes": {
+   "kind": "feature",
+   "name": "Quotes",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "random-function": {
+   "kind": "feature",
+   "name": "random()",
+   "baseline": false
+  },
+  "rcap": {
+   "kind": "feature",
+   "name": "rcap unit",
+   "baseline": "low",
+   "low": "2026-01-13"
+  },
+  "rch": {
+   "kind": "feature",
+   "name": "rch unit",
+   "baseline": "low",
+   "low": "2026-01-13"
+  },
+  "read-write-pseudos": {
+   "kind": "feature",
+   "name": ":read-only and :read-write",
+   "baseline": "high",
+   "low": "2020-07-28",
+   "high": "2023-01-28"
+  },
+  "readable-byte-streams": {
+   "kind": "feature",
+   "name": "Readable byte streams",
+   "baseline": "low",
+   "low": "2026-03-24"
+  },
+  "readablestream-from": {
+   "kind": "feature",
+   "name": "ReadableStream.from()",
+   "baseline": false
+  },
+  "reading-flow": {
+   "kind": "feature",
+   "name": "reading-flow",
+   "baseline": false
+  },
+  "rect-xywh": {
+   "kind": "feature",
+   "name": "rect() and xywh()",
+   "baseline": "high",
+   "low": "2024-01-23",
+   "high": "2026-07-23"
+  },
+  "rect-xywx": {
+   "kind": "moved",
+   "redirects": [
+    "rect-xywh"
+   ]
+  },
+  "referencetarget": {
+   "kind": "feature",
+   "name": "Reference target",
+   "baseline": false
+  },
+  "referrer-policy": {
+   "kind": "feature",
+   "name": "Referrer policy",
+   "baseline": "high",
+   "low": "2021-09-20",
+   "high": "2024-03-20"
+  },
+  "regexp": {
+   "kind": "feature",
+   "name": "Regular expressions",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "regexp-compile": {
+   "kind": "feature",
+   "name": "RegExp compile()",
+   "baseline": false
+  },
+  "regexp-escape": {
+   "kind": "feature",
+   "name": "RegExp.escape()",
+   "baseline": "low",
+   "low": "2025-05-01"
+  },
+  "regexp-static-properties": {
+   "kind": "feature",
+   "name": "RegExp static properties",
+   "baseline": false
+  },
+  "region-capture": {
+   "kind": "feature",
+   "name": "Region capture",
+   "baseline": false
+  },
+  "registered-custom-properties": {
+   "kind": "feature",
+   "name": "Registered custom properties",
+   "baseline": "low",
+   "low": "2024-07-09"
+  },
+  "registerprotocolhandler": {
+   "kind": "feature",
+   "name": "registerProtocolHandler",
+   "baseline": false
+  },
+  "related-apps": {
+   "kind": "feature",
+   "name": "Related apps",
+   "baseline": false
+  },
+  "related-website-sets": {
+   "kind": "feature",
+   "name": "Related website sets",
+   "baseline": false
+  },
+  "relative-color": {
+   "kind": "feature",
+   "name": "Relative colors",
+   "baseline": "low",
+   "low": "2024-09-16"
+  },
+  "relative-positioning": {
+   "kind": "feature",
+   "name": "Relative positioning",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "rem": {
+   "kind": "feature",
+   "name": "rem",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "remote-playback": {
+   "kind": "feature",
+   "name": "Remote playback",
+   "baseline": false
+  },
+  "reporting": {
+   "kind": "feature",
+   "name": "Reporting API",
+   "baseline": "low",
+   "low": "2026-03-24"
+  },
+  "reporting-coep-violations": {
+   "kind": "feature",
+   "name": "COEP violation reports",
+   "baseline": false
+  },
+  "reporting-crashes": {
+   "kind": "feature",
+   "name": "Crash reporting",
+   "baseline": false
+  },
+  "reporting-crashes-storage": {
+   "kind": "feature",
+   "name": "Crash report storage",
+   "baseline": false
+  },
+  "reporting-csp-violations": {
+   "kind": "feature",
+   "name": "CSP violation reports",
+   "baseline": "low",
+   "low": "2026-03-24"
+  },
+  "reporting-deprecation": {
+   "kind": "feature",
+   "name": "Deprecation reports",
+   "baseline": false
+  },
+  "reporting-integrity-violations": {
+   "kind": "feature",
+   "name": "Integrity violation reports",
+   "baseline": false
+  },
+  "reporting-interventions": {
+   "kind": "feature",
+   "name": "Intervention reports",
+   "baseline": false
+  },
+  "reporting-permissions-policy-violations": {
+   "kind": "feature",
+   "name": "Permissions policy violation reporting",
+   "baseline": false
+  },
+  "request-animation-frame": {
+   "kind": "feature",
+   "name": "requestAnimationFrame()",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "request-animation-frame-workers": {
+   "kind": "feature",
+   "name": "requestAnimationFrame() in workers",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "request-video-frame-callback": {
+   "kind": "feature",
+   "name": "requestVideoFrameCallback()",
+   "baseline": "low",
+   "low": "2024-10-29"
+  },
+  "requestclose": {
+   "kind": "feature",
+   "name": "dialog.requestClose()",
+   "baseline": "low",
+   "low": "2025-05-27"
+  },
+  "requestidlecallback": {
+   "kind": "feature",
+   "name": "requestIdleCallback()",
+   "baseline": false
+  },
+  "resizable": {
+   "kind": "feature",
+   "name": "resizable media query",
+   "baseline": false
+  },
+  "resizable-buffers": {
+   "kind": "feature",
+   "name": "Resizable buffers",
+   "baseline": "low",
+   "low": "2024-07-09"
+  },
+  "resize": {
+   "kind": "feature",
+   "name": "resize (CSS property)",
+   "baseline": false
+  },
+  "resize-observer": {
+   "kind": "feature",
+   "name": "Resize observer",
+   "baseline": "high",
+   "low": "2020-07-28",
+   "high": "2023-01-28"
+  },
+  "resolution": {
+   "kind": "feature",
+   "name": "resolution media query",
+   "baseline": "high",
+   "low": "2022-09-12",
+   "high": "2025-03-12"
+  },
+  "resolution-compat": {
+   "kind": "feature",
+   "name": "resolution media query (compatibility prefixes)",
+   "baseline": "high",
+   "low": "2018-10-23",
+   "high": "2021-04-23"
+  },
+  "resource-size": {
+   "kind": "feature",
+   "name": "Resource size",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "resource-timing": {
+   "kind": "feature",
+   "name": "Resource timing performance entries",
+   "baseline": "high",
+   "low": "2017-09-19",
+   "high": "2020-03-19"
+  },
+  "retriable-module-loading": {
+   "kind": "feature",
+   "name": "Retriable module loading",
+   "baseline": false
+  },
+  "revert-rule": {
+   "kind": "feature",
+   "name": "revert-rule",
+   "baseline": "low",
+   "low": "2026-09-14"
+  },
+  "revert-value": {
+   "kind": "feature",
+   "name": "revert",
+   "baseline": "high",
+   "low": "2020-07-27",
+   "high": "2023-01-27"
+  },
+  "rex": {
+   "kind": "feature",
+   "name": "rex unit",
+   "baseline": "low",
+   "low": "2026-01-13"
+  },
+  "rgb": {
+   "kind": "feature",
+   "name": "RGB",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "rhythmic-sizing": {
+   "kind": "feature",
+   "name": "Rhythmic sizing",
+   "baseline": false
+  },
+  "ric": {
+   "kind": "feature",
+   "name": "ric unit",
+   "baseline": "low",
+   "low": "2026-01-13"
+  },
+  "rlh": {
+   "kind": "feature",
+   "name": "rlh unit",
+   "baseline": "high",
+   "low": "2023-11-21",
+   "high": "2026-05-21"
+  },
+  "root": {
+   "kind": "feature",
+   "name": ":root",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "round-mod-rem": {
+   "kind": "feature",
+   "name": "round(), mod(), and rem()",
+   "baseline": "low",
+   "low": "2024-05-17"
+  },
+  "ruby": {
+   "kind": "feature",
+   "name": "<ruby>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "ruby-align": {
+   "kind": "feature",
+   "name": "ruby-align",
+   "baseline": "low",
+   "low": "2024-12-11"
+  },
+  "ruby-overhang": {
+   "kind": "feature",
+   "name": "ruby-overhang",
+   "baseline": false
+  },
+  "ruby-position": {
+   "kind": "feature",
+   "name": "ruby-position",
+   "baseline": "low",
+   "low": "2024-12-11"
+  },
+  "s": {
+   "kind": "feature",
+   "name": "<s>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "safe-area-inset": {
+   "kind": "feature",
+   "name": "Safe area inset environment variables",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "samp": {
+   "kind": "feature",
+   "name": "<samp>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "sanitizer": {
+   "kind": "feature",
+   "name": "Sanitizer API",
+   "baseline": false
+  },
+  "savedata": {
+   "kind": "feature",
+   "name": "Save-Data",
+   "baseline": false
+  },
+  "scheduler": {
+   "kind": "feature",
+   "name": "Scheduler API",
+   "baseline": false
+  },
+  "scope": {
+   "kind": "feature",
+   "name": "@scope",
+   "baseline": "low",
+   "low": "2026-03-24"
+  },
+  "scope-pseudo": {
+   "kind": "feature",
+   "name": ":scope (pseudo-class)",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "scoped-custom-element-registries": {
+   "kind": "feature",
+   "name": "Scoped custom element registries",
+   "baseline": "low",
+   "low": "2026-10-27"
+  },
+  "screen": {
+   "kind": "feature",
+   "name": "Screen",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "screen-capture": {
+   "kind": "feature",
+   "name": "Screen capture",
+   "baseline": false
+  },
+  "screen-orientation": {
+   "kind": "feature",
+   "name": "Screen orientation",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "screen-orientation-lock": {
+   "kind": "feature",
+   "name": "Screen orientation lock",
+   "baseline": false
+  },
+  "screen-wake-lock": {
+   "kind": "feature",
+   "name": "Screen wake lock",
+   "baseline": "low",
+   "low": "2025-03-31"
+  },
+  "script": {
+   "kind": "feature",
+   "name": "<script> and <noscript>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "scripting": {
+   "kind": "feature",
+   "name": "scripting media query",
+   "baseline": "high",
+   "low": "2023-12-07",
+   "high": "2026-06-07"
+  },
+  "scroll-axis-lock": {
+   "kind": "feature",
+   "name": "scroll-axis-lock",
+   "baseline": false
+  },
+  "scroll-behavior": {
+   "kind": "feature",
+   "name": "scroll-behavior",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "scroll-buttons": {
+   "kind": "feature",
+   "name": "::scroll-button",
+   "baseline": false
+  },
+  "scroll-driven-animations": {
+   "kind": "feature",
+   "name": "Scroll-driven animations",
+   "baseline": "low",
+   "low": "2026-10-27"
+  },
+  "scroll-elements": {
+   "kind": "feature",
+   "name": "Scroll methods on elements",
+   "baseline": "high",
+   "low": "2020-09-16",
+   "high": "2023-03-16"
+  },
+  "scroll-initial-target": {
+   "kind": "feature",
+   "name": "scroll-initial-target",
+   "baseline": false
+  },
+  "scroll-into-view": {
+   "kind": "feature",
+   "name": "scrollIntoView()",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "scroll-into-view-container": {
+   "kind": "feature",
+   "name": "scrollIntoView() container",
+   "baseline": false
+  },
+  "scroll-marker-targets": {
+   "kind": "feature",
+   "name": "Scroll marker target pseudo-classes",
+   "baseline": false
+  },
+  "scroll-markers": {
+   "kind": "feature",
+   "name": "Scroll markers",
+   "baseline": false
+  },
+  "scroll-promises": {
+   "kind": "feature",
+   "name": "Scroll method promises",
+   "baseline": false
+  },
+  "scroll-snap": {
+   "kind": "feature",
+   "name": "Scroll snap",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "scroll-snap-events": {
+   "kind": "feature",
+   "name": "Scroll snap events",
+   "baseline": false
+  },
+  "scroll-snap-type-pair": {
+   "kind": "feature",
+   "name": "scroll-snap-type: pair",
+   "baseline": false
+  },
+  "scroll-target-group": {
+   "kind": "feature",
+   "name": "scroll-target-group",
+   "baseline": false
+  },
+  "scroll-to-text-fragment": {
+   "kind": "feature",
+   "name": "Scroll to text fragment",
+   "baseline": "low",
+   "low": "2024-10-01"
+  },
+  "scroll-triggered-animations": {
+   "kind": "feature",
+   "name": "Scroll-triggered animations",
+   "baseline": false
+  },
+  "scrollbar-color": {
+   "kind": "feature",
+   "name": "scrollbar-color",
+   "baseline": "low",
+   "low": "2025-12-12"
+  },
+  "scrollbar-gutter": {
+   "kind": "feature",
+   "name": "scrollbar-gutter",
+   "baseline": "low",
+   "low": "2024-12-11"
+  },
+  "scrollbar-width": {
+   "kind": "feature",
+   "name": "scrollbar-width",
+   "baseline": "low",
+   "low": "2024-12-11"
+  },
+  "scrollend": {
+   "kind": "feature",
+   "name": "scrollend",
+   "baseline": "low",
+   "low": "2025-12-12"
+  },
+  "search": {
+   "kind": "feature",
+   "name": "<search>",
+   "baseline": "high",
+   "low": "2023-10-13",
+   "high": "2026-04-13"
+  },
+  "search-input-type": {
+   "kind": "feature",
+   "name": "<input type=\"search\">",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "section": {
+   "kind": "feature",
+   "name": "<section>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "secure-payment-confirmation": {
+   "kind": "feature",
+   "name": "Secure payment confirmation",
+   "baseline": false
+  },
+  "select": {
+   "kind": "feature",
+   "name": "<select>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "selection": {
+   "kind": "feature",
+   "name": "::selection",
+   "baseline": false
+  },
+  "selection-api": {
+   "kind": "feature",
+   "name": "Selection",
+   "baseline": "high",
+   "low": "2017-03-07",
+   "high": "2019-09-07"
+  },
+  "selectors": {
+   "kind": "feature",
+   "name": "Selectors (core)",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "serial": {
+   "kind": "feature",
+   "name": "Web serial",
+   "baseline": false
+  },
+  "serializable-errors": {
+   "kind": "feature",
+   "name": "Serializable errors",
+   "baseline": false
+  },
+  "server-sent-events": {
+   "kind": "feature",
+   "name": "Server-sent events",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "server-timing": {
+   "kind": "feature",
+   "name": "Server timing",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "service-workers": {
+   "kind": "feature",
+   "name": "Service workers",
+   "baseline": "high",
+   "low": "2018-04-30",
+   "high": "2020-10-30"
+  },
+  "service-workers-static-routes": {
+   "kind": "feature",
+   "name": "Service workers static routing",
+   "baseline": false
+  },
+  "set": {
+   "kind": "feature",
+   "name": "Set (initial support)",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "set-methods": {
+   "kind": "feature",
+   "name": "Set methods",
+   "baseline": "low",
+   "low": "2024-06-11"
+  },
+  "setinterval": {
+   "kind": "feature",
+   "name": "setInterval",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "settimeout": {
+   "kind": "feature",
+   "name": "setTimeout()",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "shadow-dom": {
+   "kind": "feature",
+   "name": "Shadow DOM",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "shadow-parts": {
+   "kind": "feature",
+   "name": "Shadow parts",
+   "baseline": "high",
+   "low": "2020-07-28",
+   "high": "2023-01-28"
+  },
+  "shape-function": {
+   "kind": "feature",
+   "name": "shape()",
+   "baseline": "low",
+   "low": "2026-02-24"
+  },
+  "shape-outside": {
+   "kind": "feature",
+   "name": "shape-outside",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "shapes": {
+   "kind": "feature",
+   "name": "shapes",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "shapes-polygon-round": {
+   "kind": "feature",
+   "name": "polygon() round keyword",
+   "baseline": false
+  },
+  "share": {
+   "kind": "feature",
+   "name": "navigator.share()",
+   "baseline": false
+  },
+  "shared-memory": {
+   "kind": "feature",
+   "name": "SharedArrayBuffer and Atomics",
+   "baseline": "high",
+   "low": "2021-12-13",
+   "high": "2024-06-13"
+  },
+  "shared-storage": {
+   "kind": "feature",
+   "name": "Shared storage",
+   "baseline": false
+  },
+  "shared-storage-locks": {
+   "kind": "feature",
+   "name": "Shared storage locks",
+   "baseline": false
+  },
+  "shared-workers": {
+   "kind": "feature",
+   "name": "Shared worker",
+   "baseline": "low",
+   "low": "2026-05-05"
+  },
+  "shared-workers-extended-lifetime": {
+   "kind": "feature",
+   "name": "Shared worker extended lifetime",
+   "baseline": false
+  },
+  "show-picker-input": {
+   "kind": "feature",
+   "name": "showPicker() for <input>",
+   "baseline": false
+  },
+  "show-picker-select": {
+   "kind": "feature",
+   "name": "showPicker() for <select>",
+   "baseline": false
+  },
+  "sibling-count": {
+   "kind": "feature",
+   "name": "sibling-count() and sibling-index()",
+   "baseline": "low",
+   "low": "2026-08-18"
+  },
+  "signature-based-resource-integrity": {
+   "kind": "feature",
+   "name": "Signature-based resource integrity",
+   "baseline": false
+  },
+  "single-color-gradients": {
+   "kind": "split",
+   "redirects": [
+    "gradients",
+    "conic-gradients"
+   ]
+  },
+  "sizes-auto": {
+   "kind": "feature",
+   "name": "<img sizes=\"auto\" loading=\"lazy\">",
+   "baseline": false
+  },
+  "slot": {
+   "kind": "feature",
+   "name": "<slot>",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "slot-assign": {
+   "kind": "feature",
+   "name": "Imperative slot assignment",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "small": {
+   "kind": "feature",
+   "name": "<small>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "smil-svg-animations": {
+   "kind": "feature",
+   "name": "SMIL SVG animations",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "smooth": {
+   "kind": "feature",
+   "name": "image-rendering: smooth",
+   "baseline": false
+  },
+  "soft-navigations": {
+   "kind": "feature",
+   "name": "Soft navigation performance entries",
+   "baseline": false
+  },
+  "source": {
+   "kind": "feature",
+   "name": "<source>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "sourcemap-header": {
+   "kind": "feature",
+   "name": "Sourcemap header",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "span": {
+   "kind": "feature",
+   "name": "<span>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "speak": {
+   "kind": "feature",
+   "name": "speak",
+   "baseline": false
+  },
+  "speak-as": {
+   "kind": "feature",
+   "name": "speak-as",
+   "baseline": false
+  },
+  "speculation-rules": {
+   "kind": "feature",
+   "name": "Speculation rules",
+   "baseline": false
+  },
+  "speech-recognition": {
+   "kind": "feature",
+   "name": "Speech recognition",
+   "baseline": false
+  },
+  "speech-recognition-grammar": {
+   "kind": "feature",
+   "name": "Speech recognition grammar",
+   "baseline": false
+  },
+  "speech-synthesis": {
+   "kind": "feature",
+   "name": "Speech synthesis",
+   "baseline": "high",
+   "low": "2018-09-05",
+   "high": "2021-03-05"
+  },
+  "spellcheck": {
+   "kind": "feature",
+   "name": "spellcheck",
+   "baseline": "high",
+   "low": "2017-11-28",
+   "high": "2020-05-28"
+  },
+  "spelling-grammar-error": {
+   "kind": "feature",
+   "name": "::spelling-error and ::grammar-error",
+   "baseline": false
+  },
+  "spread": {
+   "kind": "feature",
+   "name": "Spread syntax",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "srcset": {
+   "kind": "feature",
+   "name": "srcset and sizes",
+   "baseline": "high",
+   "low": "2017-03-27",
+   "high": "2019-09-27"
+  },
+  "stable-array-sort": {
+   "kind": "feature",
+   "name": "Stable array sort",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "starting-style": {
+   "kind": "feature",
+   "name": "@starting-style",
+   "baseline": "low",
+   "low": "2024-08-06"
+  },
+  "state": {
+   "kind": "feature",
+   "name": ":state()",
+   "baseline": "low",
+   "low": "2024-05-17"
+  },
+  "static-positioning": {
+   "kind": "feature",
+   "name": "Static positioning",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "steps-easing": {
+   "kind": "feature",
+   "name": "steps() easing",
+   "baseline": "high",
+   "low": "2020-09-16",
+   "high": "2023-03-16"
+  },
+  "sticky-positioning": {
+   "kind": "feature",
+   "name": "Sticky positioning",
+   "baseline": "high",
+   "low": "2019-09-19",
+   "high": "2022-03-19"
+  },
+  "storage-access": {
+   "kind": "feature",
+   "name": "Storage access",
+   "baseline": "high",
+   "low": "2023-12-05",
+   "high": "2026-06-05"
+  },
+  "storage-buckets": {
+   "kind": "feature",
+   "name": "Storage buckets",
+   "baseline": false
+  },
+  "storage-manager": {
+   "kind": "feature",
+   "name": "Storage manager",
+   "baseline": "high",
+   "low": "2023-09-18",
+   "high": "2026-03-18"
+  },
+  "streams": {
+   "kind": "feature",
+   "name": "Streams",
+   "baseline": "high",
+   "low": "2022-06-28",
+   "high": "2024-12-28"
+  },
+  "stretch": {
+   "kind": "feature",
+   "name": "stretch",
+   "baseline": false
+  },
+  "string-at": {
+   "kind": "feature",
+   "name": "String at()",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "string-codepoint": {
+   "kind": "feature",
+   "name": "String codePointAt() and fromCodePoint()",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "string-includes": {
+   "kind": "feature",
+   "name": "String includes()",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "string-matchall": {
+   "kind": "feature",
+   "name": "String matchAll()",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "string-normalize": {
+   "kind": "feature",
+   "name": "String normalize()",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "string-pad": {
+   "kind": "feature",
+   "name": "String padStart() and padEnd()",
+   "baseline": "high",
+   "low": "2017-04-05",
+   "high": "2019-10-05"
+  },
+  "string-raw": {
+   "kind": "feature",
+   "name": "String raw()",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "string-repeat": {
+   "kind": "feature",
+   "name": "String repeat()",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "string-replaceall": {
+   "kind": "feature",
+   "name": "String replaceAll()",
+   "baseline": "high",
+   "low": "2020-08-27",
+   "high": "2023-02-27"
+  },
+  "string-startsends-with": {
+   "kind": "feature",
+   "name": "String startsWith() and endsWith()",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "string-substr": {
+   "kind": "feature",
+   "name": "String substr()",
+   "baseline": false
+  },
+  "string-trim-leftright": {
+   "kind": "feature",
+   "name": "String trimLeft() and trimRight()",
+   "baseline": false,
+   "alternatives": [
+    "string-trim-startend"
+   ]
+  },
+  "string-trim-startend": {
+   "kind": "feature",
+   "name": "String trimStart() and trimEnd()",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "string-wellformed": {
+   "kind": "feature",
+   "name": "String isWellFormed() and toWellFormed()",
+   "baseline": "high",
+   "low": "2023-10-24",
+   "high": "2026-04-24"
+  },
+  "strings": {
+   "kind": "feature",
+   "name": "String (initial support)",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "strong": {
+   "kind": "feature",
+   "name": "<strong>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "structured-clone": {
+   "kind": "feature",
+   "name": "structuredClone()",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "style": {
+   "kind": "feature",
+   "name": "<style>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "style-attr": {
+   "kind": "feature",
+   "name": "style (attribute)",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "style-query-range-syntax": {
+   "kind": "feature",
+   "name": "Range syntax for style queries",
+   "baseline": false
+  },
+  "sub-sup": {
+   "kind": "feature",
+   "name": "<sub> and <sup>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "subgrid": {
+   "kind": "feature",
+   "name": "Subgrid",
+   "baseline": "high",
+   "low": "2023-09-15",
+   "high": "2026-03-15"
+  },
+  "subresource-integrity": {
+   "kind": "feature",
+   "name": "Subresource integrity",
+   "baseline": "high",
+   "low": "2018-04-30",
+   "high": "2020-10-30"
+  },
+  "summarizer": {
+   "kind": "feature",
+   "name": "Summarizer",
+   "baseline": false
+  },
+  "supports": {
+   "kind": "feature",
+   "name": "@supports",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "supports-at-rule": {
+   "kind": "feature",
+   "name": "at-rule()",
+   "baseline": false
+  },
+  "supports-compat": {
+   "kind": "feature",
+   "name": "@supports (compatibility prefix)",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "supports-named-feature": {
+   "kind": "feature",
+   "name": "named-feature()",
+   "baseline": false
+  },
+  "svg": {
+   "kind": "feature",
+   "name": "SVG",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "svg-discouraged": {
+   "kind": "feature",
+   "name": "SVG 1.1",
+   "baseline": false,
+   "alternatives": [
+    "svg",
+    "font-face"
+   ]
+  },
+  "svg-filters": {
+   "kind": "feature",
+   "name": "SVG filters",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "switch-control": {
+   "kind": "feature",
+   "name": "<input type=\"checkbox\" switch>",
+   "baseline": false
+  },
+  "symbol": {
+   "kind": "feature",
+   "name": "Symbol",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "symbols-function": {
+   "kind": "feature",
+   "name": "symbols()",
+   "baseline": false
+  },
+  "system-color": {
+   "kind": "feature",
+   "name": "System colors",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "system-color-accentcolor": {
+   "kind": "feature",
+   "name": "AccentColor and AccentColorText",
+   "baseline": false
+  },
+  "tab-size": {
+   "kind": "feature",
+   "name": "tab-size",
+   "baseline": "high",
+   "low": "2021-08-10",
+   "high": "2024-02-10"
+  },
+  "tabindex": {
+   "kind": "feature",
+   "name": "tabindex",
+   "baseline": "high",
+   "low": "2018-10-02",
+   "high": "2021-04-02"
+  },
+  "table": {
+   "kind": "feature",
+   "name": "Tables",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "table-discouraged": {
+   "kind": "feature",
+   "name": "Table styling",
+   "baseline": false
+  },
+  "target": {
+   "kind": "feature",
+   "name": ":target",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "target-text": {
+   "kind": "feature",
+   "name": "::target-text",
+   "baseline": "low",
+   "low": "2024-12-11"
+  },
+  "target-within": {
+   "kind": "feature",
+   "name": ":target-within",
+   "baseline": false,
+   "alternatives": [
+    "has",
+    "target"
+   ]
+  },
+  "template": {
+   "kind": "feature",
+   "name": "<template>",
+   "baseline": "high",
+   "low": "2015-11-12",
+   "high": "2018-05-12"
+  },
+  "template-for": {
+   "kind": "feature",
+   "name": "<template for>",
+   "baseline": false
+  },
+  "template-literals": {
+   "kind": "feature",
+   "name": "Template literals",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "temporal": {
+   "kind": "feature",
+   "name": "Temporal",
+   "baseline": false
+  },
+  "text-align": {
+   "kind": "feature",
+   "name": "text-align",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "text-align-last": {
+   "kind": "feature",
+   "name": "text-align-last",
+   "baseline": "high",
+   "low": "2022-09-12",
+   "high": "2025-03-12"
+  },
+  "text-autospace": {
+   "kind": "feature",
+   "name": "text-autospace",
+   "baseline": false
+  },
+  "text-box": {
+   "kind": "feature",
+   "name": "text-box",
+   "baseline": false
+  },
+  "text-combine-upright": {
+   "kind": "feature",
+   "name": "text-combine-upright",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "text-decoration": {
+   "kind": "feature",
+   "name": "text-decoration",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "text-decoration-line-blink": {
+   "kind": "feature",
+   "name": "text-decoration-line: blink",
+   "baseline": false,
+   "alternatives": [
+    "animations-css"
+   ]
+  },
+  "text-decoration-selection": {
+   "kind": "feature",
+   "name": "text-decoration in ::selection",
+   "baseline": false
+  },
+  "text-decoration-skip-ink": {
+   "kind": "feature",
+   "name": "text-decoration-skip-ink",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "text-decoration-skip-ink-all": {
+   "kind": "feature",
+   "name": "text-decoration-skip-ink: all",
+   "baseline": "low",
+   "low": "2026-05-07"
+  },
+  "text-decoration-skip-spaces": {
+   "kind": "feature",
+   "name": "text-decoration-skip-spaces",
+   "baseline": false
+  },
+  "text-decoration-spelling-grammar": {
+   "kind": "feature",
+   "name": "Spelling and grammar text decorations",
+   "baseline": "low",
+   "low": "2025-12-12"
+  },
+  "text-emphasis": {
+   "kind": "feature",
+   "name": "text-emphasis",
+   "baseline": "high",
+   "low": "2022-03-03",
+   "high": "2024-09-03"
+  },
+  "text-encoding": {
+   "kind": "feature",
+   "name": "Text encoding and decoding",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "text-fit": {
+   "kind": "feature",
+   "name": "text-fit",
+   "baseline": false
+  },
+  "text-indent": {
+   "kind": "feature",
+   "name": "text-indent",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "text-indent-each-line": {
+   "kind": "feature",
+   "name": "text-indent: each-line",
+   "baseline": "low",
+   "low": "2026-03-13"
+  },
+  "text-indent-hanging": {
+   "kind": "feature",
+   "name": "text-indent: hanging",
+   "baseline": "low",
+   "low": "2026-03-13"
+  },
+  "text-justify": {
+   "kind": "feature",
+   "name": "text-justify",
+   "baseline": false
+  },
+  "text-modules": {
+   "kind": "feature",
+   "name": "Text import attributes",
+   "baseline": false
+  },
+  "text-orientation": {
+   "kind": "feature",
+   "name": "text-orientation",
+   "baseline": "high",
+   "low": "2020-09-16",
+   "high": "2023-03-16"
+  },
+  "text-overflow": {
+   "kind": "feature",
+   "name": "Text overflow",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "text-shadow": {
+   "kind": "feature",
+   "name": "text-shadow",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "text-size-adjust": {
+   "kind": "feature",
+   "name": "text-size-adjust",
+   "baseline": false
+  },
+  "text-spacing-trim": {
+   "kind": "feature",
+   "name": "text-spacing-trim",
+   "baseline": false
+  },
+  "text-stroke-fill": {
+   "kind": "feature",
+   "name": "Text stroke and fill  (compatibility prefixes)",
+   "baseline": "high",
+   "low": "2017-04-05",
+   "high": "2019-10-05"
+  },
+  "text-tracks": {
+   "kind": "feature",
+   "name": "Text tracks",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "text-transform": {
+   "kind": "feature",
+   "name": "text-transform",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "text-underline-offset": {
+   "kind": "feature",
+   "name": "text-underline-offset",
+   "baseline": "high",
+   "low": "2020-11-19",
+   "high": "2023-05-19"
+  },
+  "text-underline-position": {
+   "kind": "feature",
+   "name": "text-underline-position",
+   "baseline": "high",
+   "low": "2020-07-28",
+   "high": "2023-01-28"
+  },
+  "text-wrap": {
+   "kind": "feature",
+   "name": "text-wrap",
+   "baseline": "low",
+   "low": "2024-10-17"
+  },
+  "text-wrap-balance": {
+   "kind": "feature",
+   "name": "text-wrap: balance",
+   "baseline": "low",
+   "low": "2024-05-13"
+  },
+  "text-wrap-mode": {
+   "kind": "moved",
+   "redirects": [
+    "text-wrap"
+   ]
+  },
+  "text-wrap-nowrap": {
+   "kind": "moved",
+   "redirects": [
+    "text-wrap"
+   ]
+  },
+  "text-wrap-pretty": {
+   "kind": "feature",
+   "name": "text-wrap: pretty",
+   "baseline": false
+  },
+  "text-wrap-stable": {
+   "kind": "moved",
+   "redirects": [
+    "text-wrap"
+   ]
+  },
+  "text-wrap-style": {
+   "kind": "split",
+   "redirects": [
+    "text-wrap",
+    "text-wrap-balance",
+    "text-wrap-pretty"
+   ]
+  },
+  "textarea": {
+   "kind": "feature",
+   "name": "<textarea>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "time": {
+   "kind": "feature",
+   "name": "<time>",
+   "baseline": "high",
+   "low": "2017-10-24",
+   "high": "2020-04-24"
+  },
+  "time-relative-selectors": {
+   "kind": "feature",
+   "name": "Time-relative pseudo-selectors",
+   "baseline": false
+  },
+  "title": {
+   "kind": "feature",
+   "name": "<title>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "title-attr": {
+   "kind": "feature",
+   "name": "title (attribute)",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "toggleevent-source": {
+   "kind": "feature",
+   "name": "ToggleEvent source",
+   "baseline": "low",
+   "low": "2026-05-11"
+  },
+  "top-level-await": {
+   "kind": "feature",
+   "name": "Top-level await",
+   "baseline": "low",
+   "low": "2026-09-14"
+  },
+  "topics": {
+   "kind": "feature",
+   "name": "Topics",
+   "baseline": false
+  },
+  "touch-action": {
+   "kind": "feature",
+   "name": "touch-action",
+   "baseline": "high",
+   "low": "2019-09-19",
+   "high": "2022-03-19"
+  },
+  "touch-events": {
+   "kind": "feature",
+   "name": "Touch events",
+   "baseline": false
+  },
+  "transferable-arraybuffer": {
+   "kind": "feature",
+   "name": "Transferable ArrayBuffer",
+   "baseline": "high",
+   "low": "2024-03-05",
+   "high": "2026-09-05"
+  },
+  "transferable-streams": {
+   "kind": "feature",
+   "name": "Transferable streams",
+   "baseline": false
+  },
+  "transform-box": {
+   "kind": "feature",
+   "name": "transform-box",
+   "baseline": "high",
+   "low": "2024-04-16",
+   "high": "2026-10-16"
+  },
+  "transforms2d": {
+   "kind": "feature",
+   "name": "2D transforms",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "transforms3d": {
+   "kind": "feature",
+   "name": "3D transforms",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "transformstream-transformer-cancel": {
+   "kind": "feature",
+   "name": "TransformStream transformer cancel() method",
+   "baseline": false
+  },
+  "transition-behavior": {
+   "kind": "feature",
+   "name": "transition-behavior",
+   "baseline": "low",
+   "low": "2024-08-06"
+  },
+  "transitions": {
+   "kind": "feature",
+   "name": "Transitions (CSS)",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "translate": {
+   "kind": "feature",
+   "name": "translate",
+   "baseline": "high",
+   "low": "2023-03-14",
+   "high": "2025-09-14"
+  },
+  "translator": {
+   "kind": "feature",
+   "name": "Translator",
+   "baseline": false
+  },
+  "trig-functions": {
+   "kind": "feature",
+   "name": "Trigonometric functions (CSS)",
+   "baseline": "high",
+   "low": "2023-03-13",
+   "high": "2025-09-13"
+  },
+  "trusted-types": {
+   "kind": "feature",
+   "name": "Trusted types",
+   "baseline": "low",
+   "low": "2026-02-24"
+  },
+  "two-value-display": {
+   "kind": "feature",
+   "name": "Two-value display property",
+   "baseline": "high",
+   "low": "2023-07-21",
+   "high": "2026-01-21"
+  },
+  "typed-array-iteration-methods": {
+   "kind": "feature",
+   "name": "Typed array iteration methods",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "typed-array-iterators": {
+   "kind": "feature",
+   "name": "Typed array iterators",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "typed-arrays": {
+   "kind": "feature",
+   "name": "Typed arrays (initial support)",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "u": {
+   "kind": "feature",
+   "name": "<u>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "ua-client-hints": {
+   "kind": "feature",
+   "name": "User agent client hints",
+   "baseline": false
+  },
+  "uint8array-base64-hex": {
+   "kind": "feature",
+   "name": "Uint8Array base64 and hex conversion",
+   "baseline": "low",
+   "low": "2025-09-05"
+  },
+  "unicode-point-escapes": {
+   "kind": "feature",
+   "name": "Unicode point escapes",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "unset-value": {
+   "kind": "feature",
+   "name": "unset",
+   "baseline": "high",
+   "low": "2016-03-21",
+   "high": "2018-09-21"
+  },
+  "update": {
+   "kind": "feature",
+   "name": "Update frequency media query",
+   "baseline": "high",
+   "low": "2023-09-18",
+   "high": "2026-03-18"
+  },
+  "upgrade-insecure-requests": {
+   "kind": "feature",
+   "name": "Upgrade insecure requests",
+   "baseline": "high",
+   "low": "2018-04-30",
+   "high": "2020-10-30"
+  },
+  "url": {
+   "kind": "feature",
+   "name": "URL",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "url-canparse": {
+   "kind": "feature",
+   "name": "URL.canParse()",
+   "baseline": "high",
+   "low": "2023-12-07",
+   "high": "2026-06-07"
+  },
+  "url-cross-origin": {
+   "kind": "feature",
+   "name": "cross-origin() for url()",
+   "baseline": false
+  },
+  "url-integrity": {
+   "kind": "feature",
+   "name": "integrity() for url()",
+   "baseline": false
+  },
+  "url-referrer-policy": {
+   "kind": "feature",
+   "name": "referrer-policy() for url()",
+   "baseline": false
+  },
+  "urlpattern": {
+   "kind": "feature",
+   "name": "URLPattern",
+   "baseline": "low",
+   "low": "2025-09-15"
+  },
+  "user-action-pseudos": {
+   "kind": "feature",
+   "name": "User action pseudo-classes",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "user-activation": {
+   "kind": "feature",
+   "name": "User activation",
+   "baseline": "high",
+   "low": "2023-11-21",
+   "high": "2026-05-21"
+  },
+  "user-agent-sniffing": {
+   "kind": "feature",
+   "name": "User agent sniffing",
+   "baseline": "high",
+   "low": "2016-09-20",
+   "high": "2019-03-20"
+  },
+  "user-pseudos": {
+   "kind": "feature",
+   "name": ":user-valid and :user-invalid",
+   "baseline": "high",
+   "low": "2023-11-02",
+   "high": "2026-05-02"
+  },
+  "user-select": {
+   "kind": "feature",
+   "name": "user-select",
+   "baseline": false
+  },
+  "usermedia": {
+   "kind": "feature",
+   "name": "<usermedia>",
+   "baseline": false
+  },
+  "var": {
+   "kind": "feature",
+   "name": "<var>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "vertical-align": {
+   "kind": "feature",
+   "name": "vertical-align",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "vertical-form-controls": {
+   "kind": "feature",
+   "name": "Vertical form controls",
+   "baseline": "low",
+   "low": "2024-04-18"
+  },
+  "vibration": {
+   "kind": "feature",
+   "name": "Vibration",
+   "baseline": false
+  },
+  "video": {
+   "kind": "feature",
+   "name": "<video>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "video-dynamic-range": {
+   "kind": "feature",
+   "name": "video-dynamic-range media query",
+   "baseline": false
+  },
+  "view-transition-class": {
+   "kind": "feature",
+   "name": "view-transition-class",
+   "baseline": "low",
+   "low": "2025-10-14"
+  },
+  "view-transitions": {
+   "kind": "feature",
+   "name": "View transitions",
+   "baseline": "low",
+   "low": "2025-10-14"
+  },
+  "view-transitions-element-scoped": {
+   "kind": "feature",
+   "name": "Element-scoped view transitions",
+   "baseline": false
+  },
+  "viewport-segments": {
+   "kind": "feature",
+   "name": "Viewport segments",
+   "baseline": false
+  },
+  "viewport-unit-variants": {
+   "kind": "feature",
+   "name": "Small, large, and dynamic viewport units",
+   "baseline": "high",
+   "low": "2022-12-05",
+   "high": "2025-06-05"
+  },
+  "viewport-units": {
+   "kind": "feature",
+   "name": "Viewport units",
+   "baseline": "high",
+   "low": "2017-10-17",
+   "high": "2020-04-17"
+  },
+  "virtual-keyboard": {
+   "kind": "feature",
+   "name": "Virtual keyboard",
+   "baseline": false
+  },
+  "virtual-pressure-sources": {
+   "kind": "feature",
+   "name": "Virtual pressure sources",
+   "baseline": false
+  },
+  "virtual-sensors": {
+   "kind": "feature",
+   "name": "Virtual sensors",
+   "baseline": false
+  },
+  "visibility": {
+   "kind": "feature",
+   "name": "visibility",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "visual-viewport": {
+   "kind": "feature",
+   "name": "Visual viewport API",
+   "baseline": "high",
+   "low": "2021-08-10",
+   "high": "2024-02-10"
+  },
+  "wasm": {
+   "kind": "feature",
+   "name": "WebAssembly",
+   "baseline": "high",
+   "low": "2017-10-17",
+   "high": "2020-04-17"
+  },
+  "wasm-bigint": {
+   "kind": "feature",
+   "name": "BigInt to i64 conversion (WebAssembly)",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "wasm-branch-hinting": {
+   "kind": "feature",
+   "name": "Branch hinting (WebAssembly)",
+   "baseline": "low",
+   "low": "2026-02-24"
+  },
+  "wasm-bulk-memory": {
+   "kind": "feature",
+   "name": "Bulk memory operations (WebAssembly)",
+   "baseline": "high",
+   "low": "2021-10-25",
+   "high": "2024-04-25"
+  },
+  "wasm-exception-handling": {
+   "kind": "feature",
+   "name": "Exception handling (WebAssembly)",
+   "baseline": "high",
+   "low": "2022-05-03",
+   "high": "2024-11-03"
+  },
+  "wasm-exnref-exceptions": {
+   "kind": "feature",
+   "name": "Exception references with exnref (WebAssembly)",
+   "baseline": "low",
+   "low": "2025-05-29"
+  },
+  "wasm-extended-constant-expressions": {
+   "kind": "feature",
+   "name": "Extended constant expressions (WebAssembly)",
+   "baseline": "high",
+   "low": "2024-03-05",
+   "high": "2026-09-05"
+  },
+  "wasm-garbage-collection": {
+   "kind": "feature",
+   "name": "Garbage collection (WebAssembly)",
+   "baseline": "low",
+   "low": "2024-12-11"
+  },
+  "wasm-jspi": {
+   "kind": "feature",
+   "name": "JavaScript promise integration (WebAssembly)",
+   "baseline": "low",
+   "low": "2026-09-14"
+  },
+  "wasm-memory64": {
+   "kind": "feature",
+   "name": "Memory64 (WebAssembly)",
+   "baseline": false
+  },
+  "wasm-multi-memory": {
+   "kind": "feature",
+   "name": "Multi-memory (WebAssembly)",
+   "baseline": false
+  },
+  "wasm-multi-value": {
+   "kind": "feature",
+   "name": "Multi-value (WebAssembly)",
+   "baseline": "high",
+   "low": "2020-10-20",
+   "high": "2023-04-20"
+  },
+  "wasm-mutable-globals": {
+   "kind": "feature",
+   "name": "Import and export of mutable globals (WebAssembly)",
+   "baseline": "high",
+   "low": "2020-03-24",
+   "high": "2022-09-24"
+  },
+  "wasm-non-trapping-float-to-int": {
+   "kind": "feature",
+   "name": "Non-trapping float-to-int conversion (WebAssembly)",
+   "baseline": "high",
+   "low": "2021-10-25",
+   "high": "2024-04-25"
+  },
+  "wasm-reference-types": {
+   "kind": "feature",
+   "name": "Reference types (WebAssembly)",
+   "baseline": "high",
+   "low": "2021-11-19",
+   "high": "2024-05-19"
+  },
+  "wasm-sign-extension-operators": {
+   "kind": "feature",
+   "name": "Sign extension operators (WebAssembly)",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "wasm-simd": {
+   "kind": "feature",
+   "name": "Fixed-width SIMD (WebAssembly)",
+   "baseline": "high",
+   "low": "2023-03-27",
+   "high": "2025-09-27"
+  },
+  "wasm-simd-relaxed": {
+   "kind": "feature",
+   "name": "Relaxed-width SIMD (WebAssembly)",
+   "baseline": false
+  },
+  "wasm-string-builtins": {
+   "kind": "feature",
+   "name": "String builtins (WebAssembly)",
+   "baseline": false
+  },
+  "wasm-tail-call-optimization": {
+   "kind": "feature",
+   "name": "Tail call optimization (WebAssembly)",
+   "baseline": "low",
+   "low": "2024-12-11"
+  },
+  "wasm-threads": {
+   "kind": "feature",
+   "name": "Threads and atomics (WebAssembly)",
+   "baseline": "high",
+   "low": "2021-12-13",
+   "high": "2024-06-13"
+  },
+  "wasm-typed-fun-refs": {
+   "kind": "feature",
+   "name": "Typed function references (WebAssembly)",
+   "baseline": "low",
+   "low": "2024-09-16"
+  },
+  "wbr": {
+   "kind": "feature",
+   "name": "<wbr>",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "weak-references": {
+   "kind": "feature",
+   "name": "Weak references",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "weakmap": {
+   "kind": "feature",
+   "name": "WeakMap",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "weakset": {
+   "kind": "feature",
+   "name": "WeakSet",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "web-animations": {
+   "kind": "feature",
+   "name": "Web animations",
+   "baseline": "high",
+   "low": "2020-09-16",
+   "high": "2023-03-16"
+  },
+  "web-animations-iterationcomposite": {
+   "kind": "feature",
+   "name": "iterationComposite",
+   "baseline": false
+  },
+  "web-audio": {
+   "kind": "feature",
+   "name": "Web Audio",
+   "baseline": "high",
+   "low": "2021-04-26",
+   "high": "2023-10-26"
+  },
+  "web-bluetooth": {
+   "kind": "feature",
+   "name": "Web Bluetooth",
+   "baseline": false
+  },
+  "web-cryptography": {
+   "kind": "feature",
+   "name": "Web Cryptography",
+   "baseline": "high",
+   "low": "2017-09-19",
+   "high": "2020-03-19"
+  },
+  "web-install": {
+   "kind": "moved",
+   "redirects": [
+    "navigator-install"
+   ]
+  },
+  "web-locks": {
+   "kind": "feature",
+   "name": "Locks",
+   "baseline": "high",
+   "low": "2022-03-14",
+   "high": "2024-09-14"
+  },
+  "web-midi": {
+   "kind": "feature",
+   "name": "Web MIDI",
+   "baseline": false
+  },
+  "web-nfc": {
+   "kind": "feature",
+   "name": "Web NFC",
+   "baseline": false
+  },
+  "web-otp": {
+   "kind": "feature",
+   "name": "WebOTP",
+   "baseline": false
+  },
+  "webauthn": {
+   "kind": "feature",
+   "name": "Web authentication",
+   "baseline": "high",
+   "low": "2021-09-07",
+   "high": "2024-03-07"
+  },
+  "webauthn-public-key-easy": {
+   "kind": "feature",
+   "name": "Web authentication easy public key access",
+   "baseline": "high",
+   "low": "2023-10-24",
+   "high": "2026-04-24"
+  },
+  "webauthn-signals": {
+   "kind": "feature",
+   "name": "Web authentication signal methods",
+   "baseline": false
+  },
+  "webcodecs": {
+   "kind": "feature",
+   "name": "WebCodecs",
+   "baseline": false
+  },
+  "webdriver": {
+   "kind": "feature",
+   "name": "WebDriver",
+   "baseline": false
+  },
+  "webdriver-bidi": {
+   "kind": "feature",
+   "name": "WebDriver BiDi",
+   "baseline": false
+  },
+  "webgl": {
+   "kind": "feature",
+   "name": "WebGL",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "webgl-color-buffer-float": {
+   "kind": "feature",
+   "name": "WEBGL_color_buffer_float WebGL extension",
+   "baseline": "high",
+   "low": "2021-09-20",
+   "high": "2024-03-20"
+  },
+  "webgl-color-management": {
+   "kind": "feature",
+   "name": "Color management for WebGL",
+   "baseline": "low",
+   "low": "2024-10-29"
+  },
+  "webgl-compressed-texture-astc": {
+   "kind": "feature",
+   "name": "WEBGL_compressed_texture_astc WebGL extension",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "webgl-compressed-texture-etc": {
+   "kind": "feature",
+   "name": "WEBGL_compressed_texture_etc WebGL extension",
+   "baseline": "high",
+   "low": "2020-03-24",
+   "high": "2022-09-24"
+  },
+  "webgl-compressed-texture-etc1": {
+   "kind": "feature",
+   "name": "WEBGL_compressed_texture_etc1 WebGL extension",
+   "baseline": "high",
+   "low": "2020-03-24",
+   "high": "2022-09-24"
+  },
+  "webgl-compressed-texture-pvrtc": {
+   "kind": "feature",
+   "name": "WEBGL_compressed_texture_pvrtc WebGL extension",
+   "baseline": false
+  },
+  "webgl-compressed-texture-s3tc": {
+   "kind": "feature",
+   "name": "WEBGL_compressed_texture_s3tc WebGL extension",
+   "baseline": false
+  },
+  "webgl-compressed-texture-s3tc-srgb": {
+   "kind": "feature",
+   "name": "WEBGL_compressed_texture_s3tc_srgb WebGL extension",
+   "baseline": false
+  },
+  "webgl-debug-renderer-info": {
+   "kind": "feature",
+   "name": "WEBGL_debug_renderer_info WebGL extension",
+   "baseline": "high",
+   "low": "2017-04-19",
+   "high": "2019-10-19"
+  },
+  "webgl-debug-shaders": {
+   "kind": "feature",
+   "name": "WEBGL_debug_shaders WebGL extension",
+   "baseline": "high",
+   "low": "2020-09-16",
+   "high": "2023-03-16"
+  },
+  "webgl-depth-texture": {
+   "kind": "feature",
+   "name": "WEBGL_depth_texture WebGL extension",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "webgl-desynchronized": {
+   "kind": "feature",
+   "name": "Desynchronized WebGL canvas",
+   "baseline": false
+  },
+  "webgl-draw-buffers": {
+   "kind": "feature",
+   "name": "WEBGL_draw_buffers WebGL extension",
+   "baseline": false
+  },
+  "webgl-lose-context": {
+   "kind": "feature",
+   "name": "WEBGL_lose_context WebGL extension",
+   "baseline": "high",
+   "low": "2018-04-30",
+   "high": "2020-10-30"
+  },
+  "webgl-multi-draw": {
+   "kind": "feature",
+   "name": "WEBGL_multi_draw WebGL extension",
+   "baseline": false
+  },
+  "webgl-oes-draw-buffers-indexed": {
+   "kind": "feature",
+   "name": "OES_draw_buffers_indexed WebGL extension",
+   "baseline": "high",
+   "low": "2022-12-13",
+   "high": "2025-06-13"
+  },
+  "webgl-sab": {
+   "kind": "feature",
+   "name": "SharedArrayBuffer in WebGL",
+   "baseline": false
+  },
+  "webgl2": {
+   "kind": "feature",
+   "name": "WebGL2",
+   "baseline": "high",
+   "low": "2021-09-20",
+   "high": "2024-03-20"
+  },
+  "webgl2-color-management": {
+   "kind": "feature",
+   "name": "Color management for WebGL2",
+   "baseline": "low",
+   "low": "2024-10-29"
+  },
+  "webgl2-desynchronized": {
+   "kind": "feature",
+   "name": "Desynchronized WebGL2 canvas",
+   "baseline": false
+  },
+  "webgpu": {
+   "kind": "feature",
+   "name": "WebGPU",
+   "baseline": false
+  },
+  "webgpu-subgroups": {
+   "kind": "feature",
+   "name": "WebGPU subgroups",
+   "baseline": false
+  },
+  "webhid": {
+   "kind": "feature",
+   "name": "WebHID",
+   "baseline": false
+  },
+  "webnn": {
+   "kind": "feature",
+   "name": "WebNN",
+   "baseline": false
+  },
+  "webp": {
+   "kind": "feature",
+   "name": "WebP",
+   "baseline": "high",
+   "low": "2020-09-16",
+   "high": "2023-03-16"
+  },
+  "webrtc": {
+   "kind": "feature",
+   "name": "WebRTC",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "webrtc-encoded-transform": {
+   "kind": "feature",
+   "name": "WebRTC encoded transform",
+   "baseline": "low",
+   "low": "2025-10-03"
+  },
+  "webrtc-sctp": {
+   "kind": "feature",
+   "name": "WebRTC SCTP information",
+   "baseline": "high",
+   "low": "2023-05-09",
+   "high": "2025-11-09"
+  },
+  "webrtc-stats": {
+   "kind": "feature",
+   "name": "WebRTC statistics",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "websockets": {
+   "kind": "feature",
+   "name": "WebSockets",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "webtransport": {
+   "kind": "feature",
+   "name": "WebTransport",
+   "baseline": "low",
+   "low": "2026-03-24"
+  },
+  "webusb": {
+   "kind": "feature",
+   "name": "WebUSB",
+   "baseline": false
+  },
+  "webvr": {
+   "kind": "feature",
+   "name": "WebVR",
+   "baseline": false,
+   "alternatives": [
+    "webxr-device"
+   ]
+  },
+  "webvtt": {
+   "kind": "feature",
+   "name": "WebVTT",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "webvtt-cue-alignment": {
+   "kind": "feature",
+   "name": "WebVTT cue alignment",
+   "baseline": false
+  },
+  "webvtt-cue-settings": {
+   "kind": "feature",
+   "name": "WebVTT cue settings",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "webvtt-regions": {
+   "kind": "feature",
+   "name": "WebVTT regions",
+   "baseline": false
+  },
+  "webxr-anchors": {
+   "kind": "feature",
+   "name": "Anchors (WebXR)",
+   "baseline": false
+  },
+  "webxr-ar": {
+   "kind": "feature",
+   "name": "Augmented reality",
+   "baseline": false
+  },
+  "webxr-camera": {
+   "kind": "feature",
+   "name": "Raw camera access for WebXR",
+   "baseline": false
+  },
+  "webxr-depth-sensing": {
+   "kind": "feature",
+   "name": "Depth sensing",
+   "baseline": false
+  },
+  "webxr-device": {
+   "kind": "feature",
+   "name": "WebXR",
+   "baseline": false
+  },
+  "webxr-dom-overlays": {
+   "kind": "feature",
+   "name": "DOM overlays for WebXR",
+   "baseline": false
+  },
+  "webxr-gamepads": {
+   "kind": "feature",
+   "name": "Gamepad (WebXR)",
+   "baseline": false
+  },
+  "webxr-hand-input": {
+   "kind": "feature",
+   "name": "Hand input",
+   "baseline": false
+  },
+  "webxr-hit-test": {
+   "kind": "feature",
+   "name": "Hit test",
+   "baseline": false
+  },
+  "webxr-layers": {
+   "kind": "feature",
+   "name": "Layers (WebXR)",
+   "baseline": false
+  },
+  "webxr-lighting-estimation": {
+   "kind": "feature",
+   "name": "Lighting estimation",
+   "baseline": false
+  },
+  "wheel-events": {
+   "kind": "feature",
+   "name": "Wheel events",
+   "baseline": false
+  },
+  "wheel-events-momentum": {
+   "kind": "feature",
+   "name": "Wheel events momentum",
+   "baseline": false
+  },
+  "where": {
+   "kind": "feature",
+   "name": ":where()",
+   "baseline": "high",
+   "low": "2021-01-21",
+   "high": "2023-07-21"
+  },
+  "white-space": {
+   "kind": "feature",
+   "name": "white-space",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "white-space-collapse": {
+   "kind": "feature",
+   "name": "white-space-collapse",
+   "baseline": "high",
+   "low": "2024-03-19",
+   "high": "2026-09-19"
+  },
+  "widows-orphans": {
+   "kind": "feature",
+   "name": "Widows and orphans",
+   "baseline": false
+  },
+  "width-height": {
+   "kind": "feature",
+   "name": "Width and height",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "will-change": {
+   "kind": "feature",
+   "name": "will-change",
+   "baseline": "high",
+   "low": "2020-01-15",
+   "high": "2022-07-15"
+  },
+  "window": {
+   "kind": "feature",
+   "name": "Window",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "window-controls-overlay": {
+   "kind": "feature",
+   "name": "Window Controls Overlay",
+   "baseline": false
+  },
+  "window-drag": {
+   "kind": "feature",
+   "name": "window-drag",
+   "baseline": false
+  },
+  "window-management": {
+   "kind": "feature",
+   "name": "Window management",
+   "baseline": false
+  },
+  "window-management-resizing": {
+   "kind": "feature",
+   "name": "Window resizing",
+   "baseline": false
+  },
+  "with": {
+   "kind": "feature",
+   "name": "with",
+   "baseline": false,
+   "alternatives": [
+    "destructuring"
+   ]
+  },
+  "word-break": {
+   "kind": "feature",
+   "name": "word-break",
+   "baseline": "high",
+   "low": "2015-09-30",
+   "high": "2018-03-30"
+  },
+  "word-break-auto-phrase": {
+   "kind": "feature",
+   "name": "word-break: auto-phrase",
+   "baseline": false
+  },
+  "word-break-break-word": {
+   "kind": "feature",
+   "name": "word-break: break-word",
+   "baseline": false,
+   "alternatives": [
+    "overflow-wrap"
+   ]
+  },
+  "word-spacing": {
+   "kind": "feature",
+   "name": "word-spacing",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "writing-mode": {
+   "kind": "feature",
+   "name": "writing-mode",
+   "baseline": "high",
+   "low": "2017-03-27",
+   "high": "2019-09-27"
+  },
+  "writing-mode-svg-values": {
+   "kind": "feature",
+   "name": "writing-mode SVG 1.1 values",
+   "baseline": false,
+   "alternatives": [
+    "writing-mode"
+   ]
+  },
+  "writingsuggestions": {
+   "kind": "feature",
+   "name": "writingsuggestions",
+   "baseline": false
+  },
+  "x-frame-options": {
+   "kind": "feature",
+   "name": "X-Frame-Options",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "xhr": {
+   "kind": "feature",
+   "name": "XMLHttpRequest",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "xml-serializer": {
+   "kind": "feature",
+   "name": "XMLSerializer",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "xpath": {
+   "kind": "feature",
+   "name": "XPath",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "xslt": {
+   "kind": "feature",
+   "name": "XSLT",
+   "baseline": false
+  },
+  "z-index": {
+   "kind": "feature",
+   "name": "z-index",
+   "baseline": "high",
+   "low": "2015-07-29",
+   "high": "2018-01-29"
+  },
+  "zoom": {
+   "kind": "feature",
+   "name": "zoom",
+   "baseline": "low",
+   "low": "2024-05-14"
+  },
+  "zstd": {
+   "kind": "feature",
+   "name": "Zstandard compression",
+   "baseline": "low",
+   "low": "2026-02-11"
+  }
+ }
+}

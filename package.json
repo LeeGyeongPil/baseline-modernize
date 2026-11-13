@@ -1,0 +1,29 @@
+{
+  "name": "baseline-modernize",
+  "version": "0.1.0",
+  "description": "Find legacy web patterns in JS/TS/JSX/CSS/HTML and suggest modern replacements that pass your Baseline target. No model, no network.",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "baseline-modernize": "dist/cli.js" },
+  "main": "dist/cli.js",
+  "files": ["dist", "!dist/test", "data", "THIRD_PARTY_NOTICES.md", "README.md", "README.ko.md", "CHANGELOG.md"],
+  "engines": { "node": "^20.19.0 || >=22.12.0" },
+  "keywords": ["baseline", "web-features", "linter", "modernize", "sarif", "css", "html", "javascript"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "start": "node dist/cli.js examples/legacy-app --exit-zero",
+    "gen:data": "node scripts/gen-data.mjs"
+  },
+  "dependencies": {
+    "oxc-parser": "0.158.0",
+    "parse5": "8.1.1",
+    "postcss": "8.5.32"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "6.0.3",
+    "web-features": "3.46.0"
+  }
+}
