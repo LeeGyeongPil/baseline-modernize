@@ -1,0 +1,20 @@
+/* Hand-written demo input: legacy CSS patterns. */
+.button {
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-border-radius: 4px;
+}
+
+.video-wrap {
+  position: relative;
+  height: 0;
+  padding-top: 56.25%;
+}
+
+.stack > * + * {
+  margin-top: 16px;
+}
+
+.card {
+  color: #222;
+}

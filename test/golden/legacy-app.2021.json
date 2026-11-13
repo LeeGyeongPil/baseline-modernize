@@ -1,0 +1,195 @@
+{
+  "tool": "baseline-modernize",
+  "webFeatures": "3.46.0",
+  "baseline": "2021",
+  "findings": [
+    {
+      "rule": "xhr",
+      "file": "examples/legacy-app/app.jsx",
+      "line": 5,
+      "column": 15,
+      "confidence": "certain",
+      "featureId": "fetch",
+      "message": "XMLHttpRequest is the legacy request API. Use fetch().",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "a0a5030a5fad7289"
+    },
+    {
+      "rule": "scroll-listener",
+      "file": "examples/legacy-app/app.jsx",
+      "line": 9,
+      "column": 3,
+      "confidence": "suspect",
+      "featureId": "intersection-observer",
+      "message": "A scroll listener may be tracking visibility. If so, use IntersectionObserver, which does not run on every scroll event.",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "fef75ced1dbfed48"
+    },
+    {
+      "rule": "unneeded-prefix",
+      "file": "examples/legacy-app/style.css",
+      "line": 5,
+      "column": 3,
+      "confidence": "certain",
+      "featureId": "border-radius",
+      "message": "-webkit-border-radius is a vendor-prefixed property. Use the standard border-radius.",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "84d85c4296083b2a"
+    },
+    {
+      "rule": "padding-hack-ratio",
+      "file": "examples/legacy-app/style.css",
+      "line": 11,
+      "column": 3,
+      "confidence": "certain",
+      "featureId": "aspect-ratio",
+      "message": "padding-top: 56.25% is a percentage hack for a 16 / 9 ratio. Use aspect-ratio: 16 / 9.",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "b6c094d3045abef2"
+    },
+    {
+      "rule": "owl-spacing",
+      "file": "examples/legacy-app/style.css",
+      "line": 14,
+      "column": 1,
+      "confidence": "suspect",
+      "featureId": "flexbox-gap",
+      "message": "The \"* + *\" margin pattern spaces siblings. If the parent is flex or grid, use gap on the parent.",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "3f4e170903c86c8a"
+    }
+  ],
+  "silenced": [
+    {
+      "rule": "json-deep-clone",
+      "file": "examples/legacy-app/app.jsx",
+      "line": 3,
+      "column": 16,
+      "featureId": "structured-clone",
+      "reason": {
+        "id": "structured-clone",
+        "baseline": "high",
+        "low": "2022-03-14",
+        "target": "2021"
+      }
+    },
+    {
+      "rule": "hasown-call",
+      "file": "examples/legacy-app/app.jsx",
+      "line": 11,
+      "column": 21,
+      "featureId": "object-hasown",
+      "reason": {
+        "id": "object-hasown",
+        "baseline": "high",
+        "low": "2022-03-14",
+        "target": "2021"
+      }
+    },
+    {
+      "rule": "array-last-index",
+      "file": "examples/legacy-app/app.jsx",
+      "line": 12,
+      "column": 20,
+      "featureId": "array-at",
+      "reason": {
+        "id": "array-at",
+        "baseline": "high",
+        "low": "2022-03-14",
+        "target": "2021"
+      }
+    },
+    {
+      "rule": "div-dialog",
+      "file": "examples/legacy-app/index.html",
+      "line": 8,
+      "column": 5,
+      "featureId": "dialog",
+      "reason": {
+        "id": "dialog",
+        "baseline": "high",
+        "low": "2022-03-14",
+        "target": "2021"
+      }
+    },
+    {
+      "rule": "img-data-src",
+      "file": "examples/legacy-app/index.html",
+      "line": 9,
+      "column": 5,
+      "featureId": "loading-lazy",
+      "reason": {
+        "id": "loading-lazy",
+        "baseline": "high",
+        "low": "2023-12-19",
+        "target": "2021"
+      }
+    },
+    {
+      "rule": "js-accordion",
+      "file": "examples/legacy-app/index.html",
+      "line": 11,
+      "column": 5,
+      "featureId": "details-name",
+      "reason": {
+        "id": "details-name",
+        "baseline": "low",
+        "low": "2024-09-03",
+        "target": "2021"
+      }
+    },
+    {
+      "rule": "json-deep-clone",
+      "file": "examples/legacy-app/modal.tsx",
+      "line": 5,
+      "column": 32,
+      "featureId": "structured-clone",
+      "reason": {
+        "id": "structured-clone",
+        "baseline": "high",
+        "low": "2022-03-14",
+        "target": "2021"
+      }
+    },
+    {
+      "rule": "div-dialog",
+      "file": "examples/legacy-app/modal.tsx",
+      "line": 7,
+      "column": 5,
+      "featureId": "dialog",
+      "reason": {
+        "id": "dialog",
+        "baseline": "high",
+        "low": "2022-03-14",
+        "target": "2021"
+      }
+    },
+    {
+      "rule": "unneeded-prefix",
+      "file": "examples/legacy-app/style.css",
+      "line": 3,
+      "column": 3,
+      "featureId": "appearance",
+      "reason": {
+        "id": "appearance",
+        "baseline": "high",
+        "low": "2022-03-14",
+        "target": "2021"
+      }
+    }
+  ],
+  "skipped": [],
+  "summary": {
+    "findings": 5,
+    "new": 5,
+    "known": 0,
+    "silenced": 9,
+    "skipped": 0,
+    "files": 4
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "tool": "baseline-modernize",
+  "webFeatures": "3.46.0",
+  "baseline": "widely",
+  "findings": [
+    {
+      "rule": "json-deep-clone",
+      "file": "examples/legacy-app/app.jsx",
+      "line": 3,
+      "column": 16,
+      "confidence": "certain",
+      "featureId": "structured-clone",
+      "message": "JSON.parse(JSON.stringify(x)) is a lossy deep copy. Use structuredClone(x).",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "3225f88f8c2363ba"
+    },
+    {
+      "rule": "xhr",
+      "file": "examples/legacy-app/app.jsx",
+      "line": 5,
+      "column": 15,
+      "confidence": "certain",
+      "featureId": "fetch",
+      "message": "XMLHttpRequest is the legacy request API. Use fetch().",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "a0a5030a5fad7289"
+    },
+    {
+      "rule": "scroll-listener",
+      "file": "examples/legacy-app/app.jsx",
+      "line": 9,
+      "column": 3,
+      "confidence": "suspect",
+      "featureId": "intersection-observer",
+      "message": "A scroll listener may be tracking visibility. If so, use IntersectionObserver, which does not run on every scroll event.",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "fef75ced1dbfed48"
+    },
+    {
+      "rule": "hasown-call",
+      "file": "examples/legacy-app/app.jsx",
+      "line": 11,
+      "column": 21,
+      "confidence": "certain",
+      "featureId": "object-hasown",
+      "message": "Object.prototype.hasOwnProperty.call(o, k) is verbose. Use Object.hasOwn(o, k).",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "d3b07048bf35f944"
+    },
+    {
+      "rule": "array-last-index",
+      "file": "examples/legacy-app/app.jsx",
+      "line": 12,
+      "column": 20,
+      "confidence": "certain",
+      "featureId": "array-at",
+      "message": "a[a.length - 1] can be written a.at(-1).",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "38431dc174f0438d"
+    },
+    {
+      "rule": "div-dialog",
+      "file": "examples/legacy-app/index.html",
+      "line": 8,
+      "column": 5,
+      "confidence": "certain",
+      "featureId": "dialog",
+      "message": "A div with role=\"dialog\" re-implements a dialog. Use the <dialog> element with showModal().",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "7e80e351f9f71eda"
+    },
+    {
+      "rule": "img-data-src",
+      "file": "examples/legacy-app/index.html",
+      "line": 9,
+      "column": 5,
+      "confidence": "certain",
+      "featureId": "loading-lazy",
+      "message": "An img with data-src suggests a script-based lazy loader. Use loading=\"lazy\" on the img instead.",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "d36389b4fb698951"
+    },
+    {
+      "rule": "json-deep-clone",
+      "file": "examples/legacy-app/modal.tsx",
+      "line": 5,
+      "column": 32,
+      "confidence": "certain",
+      "featureId": "structured-clone",
+      "message": "JSON.parse(JSON.stringify(x)) is a lossy deep copy. Use structuredClone(x).",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "c63a99a75e1684a3"
+    },
+    {
+      "rule": "div-dialog",
+      "file": "examples/legacy-app/modal.tsx",
+      "line": 7,
+      "column": 5,
+      "confidence": "certain",
+      "featureId": "dialog",
+      "message": "A div with role=\"dialog\" re-implements a dialog. Use the <dialog> element with showModal().",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "9cbb661a25eef994"
+    },
+    {
+      "rule": "unneeded-prefix",
+      "file": "examples/legacy-app/style.css",
+      "line": 3,
+      "column": 3,
+      "confidence": "certain",
+      "featureId": "appearance",
+      "message": "-webkit-appearance is a vendor-prefixed property. Use the standard appearance.",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "54c852d3412e0c67"
+    },
+    {
+      "rule": "unneeded-prefix",
+      "file": "examples/legacy-app/style.css",
+      "line": 5,
+      "column": 3,
+      "confidence": "certain",
+      "featureId": "border-radius",
+      "message": "-webkit-border-radius is a vendor-prefixed property. Use the standard border-radius.",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "84d85c4296083b2a"
+    },
+    {
+      "rule": "padding-hack-ratio",
+      "file": "examples/legacy-app/style.css",
+      "line": 11,
+      "column": 3,
+      "confidence": "certain",
+      "featureId": "aspect-ratio",
+      "message": "padding-top: 56.25% is a percentage hack for a 16 / 9 ratio. Use aspect-ratio: 16 / 9.",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "b6c094d3045abef2"
+    },
+    {
+      "rule": "owl-spacing",
+      "file": "examples/legacy-app/style.css",
+      "line": 14,
+      "column": 1,
+      "confidence": "suspect",
+      "featureId": "flexbox-gap",
+      "message": "The \"* + *\" margin pattern spaces siblings. If the parent is flex or grid, use gap on the parent.",
+      "baseline": "high",
+      "known": false,
+      "fingerprint": "3f4e170903c86c8a"
+    }
+  ],
+  "silenced": [
+    {
+      "rule": "js-accordion",
+      "file": "examples/legacy-app/index.html",
+      "line": 11,
+      "column": 5,
+      "featureId": "details-name",
+      "reason": {
+        "id": "details-name",
+        "baseline": "low",
+        "low": "2024-09-03",
+        "target": "widely"
+      }
+    }
+  ],
+  "skipped": [],
+  "summary": {
+    "findings": 13,
+    "new": 13,
+    "known": 0,
+    "silenced": 1,
+    "skipped": 0,
+    "files": 4
+  }
+}
