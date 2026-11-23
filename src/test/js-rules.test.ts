@@ -44,6 +44,22 @@ test("array-last-index needs the same simple object expression", async () => {
   assert.deepEqual(await rulesAt("a.js", negative), []);
 });
 
+test("array-last-index skips array-like objects that have no .at()", async () => {
+  const src = [
+    "const a = el.children[el.children.length - 1];",
+    "const b = this.root.childNodes[this.root.childNodes.length - 1];",
+    "function f() { return arguments[arguments.length - 1]; }",
+    "const items = document.querySelectorAll('li');",
+    "const c = items[items.length - 1];",
+    "const tags = (document.getElementsByTagName('p') as any);",
+    "const d = tags[tags.length - 1];",
+    "",
+  ].join("\n");
+  assert.deepEqual(await rulesAt("a.ts", src), []);
+  const still = "const arr = [1, 2];\nconst z = arr[arr.length - 1];\nconst l = a.b.c[a.b.c.length - 1];\n";
+  assert.deepEqual(await rulesAt("a.ts", still), ["array-last-index@2:11", "array-last-index@3:11"]);
+});
+
 test("scroll-listener only matches the scroll event", async () => {
   assert.deepEqual(await rulesAt("a.js", "window.addEventListener('scroll', f);\n"), ["scroll-listener@1:1"]);
   assert.deepEqual(await rulesAt("a.js", "window.addEventListener('click', f);\nel.addEventListener(name, f);\n"), []);

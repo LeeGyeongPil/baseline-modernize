@@ -45,6 +45,45 @@ function isSimpleChain(n: AstNode | undefined): boolean {
   return false;
 }
 
+// --- array-like objects that have no .at() ------------------------------------
+
+const ARRAY_LIKE_PROPS = new Set(["children", "childNodes"]);
+const ARRAY_LIKE_CALLS = new Set([
+  "querySelectorAll",
+  "getElementsByTagName",
+  "getElementsByClassName",
+  "getElementsByName",
+]);
+
+/** `el.children`, `this.root.childNodes` or the identifier `arguments`: no `.at()` there. */
+function isArrayLikeExpr(n: AstNode | undefined): boolean {
+  const cur = unwrap(n);
+  if (!cur) return false;
+  if (isIdent(cur, "arguments")) return true;
+  return cur.type === "MemberExpression" && ARRAY_LIKE_PROPS.has(propName(cur) ?? "");
+}
+
+/** Callee name of `x.querySelectorAll(...)` or `querySelectorAll(...)`. */
+function calleeName(call: AstNode): string | undefined {
+  const callee = unwrap(asNode(call.callee));
+  if (callee?.type === "Identifier") return callee.name as string;
+  if (callee?.type === "MemberExpression") return propName(callee);
+  return undefined;
+}
+
+/** Names declared as `const x = ...querySelectorAll(...)` etc. (no scope analysis). */
+function collectCollectionNames(program: AstNode): Set<string> {
+  const names = new Set<string>();
+  walk(program, (node) => {
+    if (node.type !== "VariableDeclarator") return;
+    const id = asNode(node.id);
+    const init = unwrap(asNode(node.init));
+    if (id?.type !== "Identifier" || init?.type !== "CallExpression") return;
+    if (ARRAY_LIKE_CALLS.has(calleeName(init) ?? "")) names.add(id.name as string);
+  });
+  return names;
+}
+
 // --- detection ---------------------------------------------------------------
 
 export function detectJs(parsed: ParsedJs, file: string): Candidate[] {
@@ -55,6 +94,7 @@ export function detectJs(parsed: ParsedJs, file: string): Candidate[] {
     out.push({ rule, file, line: pos.line, column: pos.column, snippet: normalizeSnippet(src.slice(node.start, node.end)) });
   };
   const text = (n: AstNode): string => src.slice(n.start, n.end);
+  const collections = collectCollectionNames(program);
 
   walk(program, (node, parent) => {
     if (node.type === "CallExpression") {
@@ -102,7 +142,7 @@ export function detectJs(parsed: ParsedJs, file: string): Candidate[] {
         if (right?.type === "Literal" && right.value === 1 && left?.type === "MemberExpression" && propName(left) === "length") {
           const obj = asNode(node.object);
           const lenObj = asNode(left.object);
-          if (obj && lenObj && isSimpleChain(obj) && text(obj) === text(lenObj) && !isWriteTarget(node, parent)) {
+          if (obj && lenObj && isSimpleChain(obj) && !isArrayLikeExpr(obj) && !isCollectionName(obj, collections) && text(obj) === text(lenObj) && !isWriteTarget(node, parent)) {
             add("array-last-index", node);
           }
         }
@@ -110,6 +150,11 @@ export function detectJs(parsed: ParsedJs, file: string): Candidate[] {
     }
   });
   return out;
+}
+
+function isCollectionName(n: AstNode, names: Set<string>): boolean {
+  const cur = unwrap(n);
+  return cur?.type === "Identifier" && names.has(cur.name as string);
 }
 
 /** `a[a.length - 1] = x`, `a[...]++`, `delete a[...]` cannot be rewritten with .at(). */
