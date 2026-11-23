@@ -180,6 +180,7 @@ BASELINE_MODERNIZE_LANG=ko node dist/cli.js rules
 - `의심` 규칙(`scroll-listener`, `owl-spacing`, `js-accordion`)은 오탐일 수 있습니다.
 - `unneeded-prefix` 는 짧은 목록의 모든 속성을 보고합니다. 표준 속성이 근처에 선언되어 있는지는 보지 않습니다.
 - JS, TS, JSX, TSX, CSS, HTML 만 파싱합니다. SCSS, Vue, Svelte 는 지원하지 않고 `--fix` 도 없습니다.
+- HTML 파일은 마크업 규칙만 검사합니다. 인라인 `<script>`·`<style>` 내용과 `style` 속성은 검사하지 않으니, 해당 코드를 별도 `.js`/`.css` 파일로 옮기면 검사됩니다.
 - 파일 하나에 문법 오류가 있어도 실행은 멈추지 않습니다. 그 파일은 보고서의 건너뛴 파일 목록에 나옵니다.
 - `array-last-index` 는 Array·String·TypedArray 가 아닌 배열 같은 객체(NodeList·HTMLCollection·arguments 등)를 문법만으로는 구분하지 못해 일부 경우만 제외합니다. `at()` 이 있는지 확인한 뒤 바꾸세요.
 - 데이터 스냅숏을 갱신하면 결과가 달라질 수 있습니다.

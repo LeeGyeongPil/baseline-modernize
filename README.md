@@ -180,6 +180,7 @@ To update the data, bump the `web-features` devDependency, run `npm run gen:data
 - `suspect` rules (`scroll-listener`, `owl-spacing`, `js-accordion`) can be false alarms.
 - `unneeded-prefix` reports every property on its short list. It does not check whether the standard property is declared nearby.
 - Only JS, TS, JSX, TSX, CSS and HTML are parsed. SCSS, Vue and Svelte files are not supported, and there is no `--fix`.
+- HTML files are checked with the markup rules only. Inline `<script>` and `<style>` contents and `style` attributes are not scanned; move that code into separate `.js`/`.css` files to have it checked.
 - A syntax error in one file does not stop the run. The file is listed under skipped files in the report.
 - `array-last-index` cannot tell arrays from other array-like objects (NodeList, HTMLCollection, `arguments`) that are not Array, String or TypedArray. Only a few syntactic cases are skipped, so check that `at()` exists before changing.
 - Updating the data snapshot can change results.
