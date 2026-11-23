@@ -53,6 +53,10 @@ test("array-last-index skips array-like objects that have no .at()", async () =>
     "const c = items[items.length - 1];",
     "const tags = (document.getElementsByTagName('p') as any);",
     "const d = tags[tags.length - 1];",
+    "const n = document.getElementsByClassName('x')!;",
+    "const n1 = n[n.length - 1];",
+    "const m = (root.getElementsByName('q')! as any);",
+    "const m1 = m[m.length - 1];",
     "",
   ].join("\n");
   assert.deepEqual(await rulesAt("a.ts", src), []);
