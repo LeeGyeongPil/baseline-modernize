@@ -1,6 +1,6 @@
 {
   "name": "baseline-modernize",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Find legacy web patterns in JS/TS/JSX/CSS/HTML and suggest modern replacements that pass your Baseline target. No model, no network.",
   "license": "MIT",
   "type": "module",
