@@ -181,6 +181,7 @@ BASELINE_MODERNIZE_LANG=ko node dist/cli.js rules
 - `unneeded-prefix` 는 짧은 목록의 모든 속성을 보고합니다. 표준 속성이 근처에 선언되어 있는지는 보지 않습니다.
 - JS, TS, JSX, TSX, CSS, HTML 만 파싱합니다. SCSS, Vue, Svelte 는 지원하지 않고 `--fix` 도 없습니다.
 - 파일 하나에 문법 오류가 있어도 실행은 멈추지 않습니다. 그 파일은 보고서의 건너뛴 파일 목록에 나옵니다.
+- `array-last-index` 는 Array·String·TypedArray 가 아닌 배열 같은 객체(NodeList·HTMLCollection·arguments 등)를 문법만으로는 구분하지 못해 일부 경우만 제외합니다. `at()` 이 있는지 확인한 뒤 바꾸세요.
 - 데이터 스냅숏을 갱신하면 결과가 달라질 수 있습니다.
 - 현재 사용자가 읽을 수 없는 파일(권한 거부, `EACCES`)이 있으면 검사가 중단됩니다. 권한을 고치거나 다른 폴더를 검사하세요.
 
