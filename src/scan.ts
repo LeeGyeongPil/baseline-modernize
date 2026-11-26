@@ -6,6 +6,7 @@ import { collectFiles, kindOf } from "./files.js";
 import { t } from "./i18n/index.js";
 import { fingerprint } from "./known.js";
 import { CssParseError, parseCss } from "./parsers/css.js";
+import { inlineBlocks } from "./parsers/html.js";
 import { ParseError, parseJs } from "./parsers/js.js";
 import { detectCss } from "./rules/css.js";
 import { RULES, findRule } from "./rules/index.js";
@@ -32,7 +33,30 @@ export async function detectFile(rel: string, src: string): Promise<Candidate[]>
     return [...detectJs(parsed, rel), ...detectMarkup(jsxElements(parsed), rel)];
   }
   if (kind === "css") return detectCss(parseCss(rel, src), rel);
-  return detectMarkup(htmlElements(src), rel);
+  return detectHtml(rel, src);
+}
+
+/** Markup rules plus the JS/CSS rules over inline blocks, reported at their original HTML position. */
+async function detectHtml(rel: string, src: string): Promise<Candidate[]> {
+  const out = detectMarkup(htmlElements(src), rel);
+  for (const block of inlineBlocks(src)) {
+    let found: Candidate[];
+    try {
+      found = block.kind === "js" ? detectJs(await parseJs(rel, block.text), rel) : detectCss(parseCss(rel, block.text), rel);
+    } catch (err) {
+      // A broken inline block is skipped on its own; the rest of the file is still checked.
+      if (err instanceof ParseError || err instanceof CssParseError) continue;
+      throw err;
+    }
+    for (const c of found) {
+      out.push({
+        ...c,
+        line: block.line + c.line - 1,
+        column: c.line === 1 ? block.column + c.column - 1 : c.column,
+      });
+    }
+  }
+  return out;
 }
 
 export async function scan(opts: ScanOptions): Promise<ScanResult> {
