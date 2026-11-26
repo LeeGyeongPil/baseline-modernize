@@ -66,3 +66,46 @@ test("HTML: div-dialog, img-data-src and js-accordion with negatives", async () 
     "div-dialog@10:11",
   ]);
 });
+
+test("HTML: inline <script> and <style> are checked at their original line and column", async () => {
+  const html = [
+    "<!doctype html>",
+    "<html><head>",
+    "<style>.a{-webkit-border-radius:4px}",
+    ".b {",
+    "  -webkit-appearance: none;",
+    "}</style>",
+    "</head><body>",
+    "  <script>new XMLHttpRequest();",
+    "    const x = JSON.parse(JSON.stringify(y));</script>",
+    "</body></html>",
+    "",
+  ].join("\n");
+  const got = await rulesAt("a.html", html);
+  assert.ok(got.includes("unneeded-prefix@3:11"), got.join());
+  assert.ok(got.includes("unneeded-prefix@5:3"), got.join());
+  assert.ok(got.includes("xhr@8:11"), got.join());
+  assert.ok(got.includes("json-deep-clone@9:15"), got.join());
+});
+
+test("HTML: scripts with src or a non-JS type are skipped", async () => {
+  const html = [
+    "<script src=\"a.js\">new XMLHttpRequest()</script>",
+    "<script type=\"application/json\">{\"a\": 1}</script>",
+    "<script type=\"text/template\">new XMLHttpRequest()</script>",
+    "<script type=\"module\">new XMLHttpRequest()</script>",
+    "",
+  ].join("\n");
+  assert.deepEqual(await rulesAt("a.html", html), ["xhr@4:23"]);
+});
+
+test("HTML: a broken inline block is skipped without dropping the rest of the file", async () => {
+  const html = [
+    "<div role=\"dialog\">x</div>",
+    "<script>function (</script>",
+    "<style>.a { color: red;\n.b {</style>",
+    "<script>new XMLHttpRequest()</script>",
+    "",
+  ].join("\n");
+  assert.deepEqual(await rulesAt("a.html", html), ["div-dialog@1:1", "xhr@5:9"]);
+});
